@@ -18,9 +18,9 @@ object Report: TppReport
   PrinterSetup.PaperSize = 9
   SaveAsTemplate = True
   Template.FileName = 
-    'D:\NRW-Programme\SchILD-NRW\SchILD-Reports\Zeugnisse\Zeugnisse-N' +
-    'RW-Personal\Sek-2\GyOSt BETA - Anlage 05a - Laufbahnbescheinigun' +
-    'g Q11-Q21 - V08_10.rtm'
+    'C:\SVWS\SchILD-NRW-2\SchILD-Reports\Zeugnisse\Schild-NRW-Zeugnis' +
+    'se-Sek2\GymOb\GyOSt BETA - Anlage 05a - Laufbahnbescheinigung Q1' +
+    '1-Q21 - V08_10.rtm'
   Template.Format = ftASCII
   Units = utScreenPixels
   AllowPrintToArchive = True
@@ -3262,8 +3262,8 @@ object Report: TppReport
                   LayerName = PageLayer8
                 end
                 object ppMemo15: TppMemo
-                  UserName = 'Memo_FN_Seite2_Nr1'
-                  Caption = 'Memo_FN_Seite2_Nr1'
+                  UserName = 'Memo_FN_Seite1_Nr1'
+                  Caption = 'Memo_FN_Seite1_Nr1'
                   CharWrap = False
                   Font.Charset = DEFAULT_CHARSET
                   Font.Color = clBlack
@@ -3303,8 +3303,8 @@ object Report: TppReport
                   RemoveEmptyLines = False
                   Transparent = True
                   mmHeight = 3938
-                  mmLeft = 4215
-                  mmTop = 1060
+                  mmLeft = 4233
+                  mmTop = 1058
                   mmWidth = 181505
                   BandType = 1
                   LayerName = PageLayer8
@@ -3368,24 +3368,6 @@ object Report: TppReport
                       mmMinHeight = 0
                       mmPadding = 1058
                       NoBorder = True
-                      object ppLabel135: TppLabel
-                        UserName = 'LaUmsetzung1'
-                        Anchors = [atLeft, atRight]
-                        AutoSize = False
-                        Caption = 'F'#252'r die Umsetzung von Noten in Punkte gilt:'
-                        Font.Charset = DEFAULT_CHARSET
-                        Font.Color = clBlack
-                        Font.Name = 'Calibri'
-                        Font.Size = 8
-                        Font.Style = []
-                        Transparent = True
-                        mmHeight = 3704
-                        mmLeft = 4229
-                        mmTop = 566
-                        mmWidth = 100703
-                        BandType = 4
-                        LayerName = PageLayer8
-                      end
                     end
                     object ppTableCell2: TppTableCell
                       UserName = 'TableCell23'
@@ -5693,6 +5675,24 @@ object Report: TppReport
                   mmMinHeight = 0
                   mmLeading = 0
                 end
+                object ppLabel135: TppLabel
+                  UserName = 'LaUmsetzung1'
+                  Anchors = [atLeft, atRight]
+                  AutoSize = False
+                  Caption = 'F'#252'r die Umsetzung von Noten in Punkte gilt:'
+                  Font.Charset = DEFAULT_CHARSET
+                  Font.Color = clBlack
+                  Font.Name = 'Calibri'
+                  Font.Size = 8
+                  Font.Style = []
+                  Transparent = True
+                  mmHeight = 3704
+                  mmLeft = 4233
+                  mmTop = 529
+                  mmWidth = 100703
+                  BandType = 4
+                  LayerName = PageLayer8
+                end
               end
               object ppSummaryBand15: TppSummaryBand
                 Background.Brush.Style = bsClear
@@ -5701,8 +5701,8 @@ object Report: TppReport
                 mmHeight = 15875
                 mmPrintPosition = 0
                 object ppMemo18: TppMemo
-                  UserName = 'Memo_FN_Seite2_Nr2'
-                  Caption = 'Memo_FN_Seite2_Nr2'
+                  UserName = 'Memo_FN_Seite1_Nr2'
+                  Caption = 'Memo_FN_Seite1_Nr2'
                   CharWrap = False
                   Font.Charset = DEFAULT_CHARSET
                   Font.Color = clBlack
@@ -5727,29 +5727,29 @@ object Report: TppReport
                   mmMinHeight = 0
                   mmLeading = 0
                 end
-                object ppRichText2: TppRichText
+                object ppRichText5: TppRichText
                   UserName = 'RichText_FN_Seite1_Text2'
                   Font.Charset = DEFAULT_CHARSET
                   Font.Color = clBlack
                   Font.Name = 'Calibri'
                   Font.Size = 8
                   Font.Style = []
-                  Anchors = [atLeft, atRight]
                   Caption = 'RichText_FN_Seite1_Text2'
                   RichText = 
-                    '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil Cali' +
-                    'bri;}{\f1\fnil\fcharset0 Calibri;}}'#13#10'{\colortbl ;\red0\green0\bl' +
+                    '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcha' +
+                    'rset0 Calibri;}{\f1\fnil Calibri;}}'#13#10'{\colortbl ;\red0\green0\bl' +
                     'ue0;}'#13#10'\viewkind4\uc1\pard\cf1\f0\fs16 Eine oder mehrere schwach' +
-                    ' ausreichende Leistungen k\f1\'#39'f6nnen dazu f\'#39'fchren, dass die n' +
-                    'otwendigen Punktzahlen gem\'#39'e4\'#39'df \'#39'a7\'#39'a7 19, 28 bis 31, 39 ni' +
-                    'cht erreicht \par'#13#10'werden. Punktzahlen werden in einfacher Wertu' +
-                    'ng und stets zweistellig angegeben.\par'#13#10'\fs6\par'#13#10'\fs16 Die Kur' +
-                    'sabschlussnote wird f\'#39'fcr die beiden belegten Halbjahre in einf' +
-                    'acher Wertung ausgewiesen. Bei nicht abgeschlossenem Projektkurs' +
-                    ' wird das erste \par'#13#10'belegte Halbjahr angekreuzt.\f0\par'#13#10'}'#13#10#0
+                    ' ausreichende Leistungen k\'#39'f6nnen dazu f\'#39'fchren, dass die notw' +
+                    'endigen Punktzahlen gem\'#39'e4\'#39'df \'#39'a7\'#39'a7 19, 28 bis 31, 39 nicht' +
+                    ' erreicht werden. Punktzahlen werden in einfacher Wertung und st' +
+                    'ets zweistellig angegeben.\f1\par'#13#10'\fs4\par'#13#10'\f0\fs16 Die Kursab' +
+                    'schlussnote wird f\'#39'fcr die beiden belegten Halbjahre in einfach' +
+                    'er Wertung ausgewiesen. Bei nicht abgeschlossenem Projektkurs wi' +
+                    'rd das erste belegte Halbjahr angekreuzt.\f1\par'#13#10'}'#13#10#0
                   RemoveEmptyLines = False
+                  Stretch = True
                   Transparent = True
-                  mmHeight = 15598
+                  mmHeight = 15610
                   mmLeft = 4233
                   mmTop = 0
                   mmWidth = 181505
