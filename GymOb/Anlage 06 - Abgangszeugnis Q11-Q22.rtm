@@ -5,7 +5,7 @@ object Report: TppReport
   PrinterSetup.DocumentName = 'Anlage 06 - Abgangszeugnis Q11-Q22.rtm'
   PrinterSetup.Duplex = dpHorizontal
   PrinterSetup.Orientation = poLandscape
-  PrinterSetup.PaperName = 'A3'
+  PrinterSetup.PaperName = 'Custom'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
   PrinterSetup.mmMarginBottom = 0
@@ -14,7 +14,7 @@ object Report: TppReport
   PrinterSetup.mmMarginTop = 0
   PrinterSetup.mmPaperHeight = 297000
   PrinterSetup.mmPaperWidth = 420000
-  PrinterSetup.PaperSize = 8
+  PrinterSetup.PaperSize = 256
   SaveAsTemplate = True
   Template.FileName = 
     'C:\SVWS\SchILD-NRW-2\SchILD-Reports\Zeugnisse\Schild-NRW-Zeugnis' +
@@ -96,7 +96,7 @@ object Report: TppReport
         PrinterSetup.DocumentName = 'Anlage 06 - Abgangszeugnis Q11-Q22.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
-        PrinterSetup.PaperName = 'A3'
+        PrinterSetup.PaperName = 'Custom'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -105,7 +105,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
+        PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -176,7 +176,6 @@ object Report: TppReport
                 PrinterSetup.mmPaperHeight = 297000
                 PrinterSetup.mmPaperWidth = 210000
                 PrinterSetup.PaperSize = 9
-                Template.Offset = 284
                 Template.Format = ftASCII
                 Units = utScreenPixels
                 Version = '15.05'
@@ -690,7 +689,7 @@ object Report: TppReport
         PrinterSetup.DocumentName = 'Anlage 06 - Abgangszeugnis Q11-Q22.rtm'
         PrinterSetup.Duplex = dpHorizontal
         PrinterSetup.Orientation = poLandscape
-        PrinterSetup.PaperName = 'A3'
+        PrinterSetup.PaperName = 'Custom'
         PrinterSetup.PrinterName = 'Default'
         PrinterSetup.SaveDeviceSettings = False
         PrinterSetup.mmMarginBottom = 0
@@ -699,7 +698,7 @@ object Report: TppReport
         PrinterSetup.mmMarginTop = 0
         PrinterSetup.mmPaperHeight = 297000
         PrinterSetup.mmPaperWidth = 420000
-        PrinterSetup.PaperSize = 8
+        PrinterSetup.PaperSize = 256
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
         Template.Format = ftASCII
         Units = utScreenPixels
@@ -745,7 +744,6 @@ object Report: TppReport
               PrinterSetup.mmPaperWidth = 210000
               PrinterSetup.PaperSize = 9
               Template.DatabaseSettings.Name = 'Sub_Seite2'
-              Template.Offset = 284
               Template.Format = ftASCII
               Units = utScreenPixels
               Version = '15.05'
@@ -4921,7 +4919,7 @@ object Report: TppReport
                               68656D61203D2027270D0A202020207468656E2073756368655F504A4B5F5468
                               656D613B0D0A2020656E643B0D0A656E643B0D0A0D436F6D706F6E656E744E61
                               6D65060644657461696C094576656E744E616D65060B4265666F72655072696E
-                              74074576656E7449440218084361726574506F730102010201000001060F5472
+                              74074576656E7449440218084361726574506F7301020D020D000001060F5472
                               614576656E7448616E646C65720B50726F6772616D4E616D6506144C615F5131
                               315F506B74654F6E476574546578740B50726F6772616D54797065070B747450
                               726F63656475726506536F75726365065370726F636564757265204C615F5131
@@ -4984,7 +4982,7 @@ object Report: TppReport
                               3D20504A4B5F4E6F74656E4461727374656C6C656E28706B74513231293B0D0A
                               656E643B0D0A0D436F6D706F6E656E744E616D65060B4C615F5132315F4E6F74
                               65094576656E744E616D6506094F6E47657454657874074576656E7449440235
-                              084361726574506F7301021E0203000001060F5472614576656E7448616E646C
+                              084361726574506F730102010201000001060F5472614576656E7448616E646C
                               65720B50726F6772616D4E616D6506144C615F5132325F4E6F74654F6E476574
                               546578740B50726F6772616D54797065070B747450726F63656475726506536F
                               75726365066870726F636564757265204C615F5132325F4E6F74654F6E476574
@@ -4992,7 +4990,7 @@ object Report: TppReport
                               202054657874203A3D20504A4B5F4E6F74656E4461727374656C6C656E28706B
                               74513232293B0D0A656E643B0D0A0D436F6D706F6E656E744E616D65060B4C61
                               5F5132325F4E6F7465094576656E744E616D6506094F6E476574546578740745
-                              76656E7449440235084361726574506F7301021E0203000001060F5472614576
+                              76656E7449440235084361726574506F730102010201000001060F5472614576
                               656E7448616E646C65720B50726F6772616D4E616D6506154D656D6F5F504A4B
                               5F5468656D614F6E5072696E740B50726F6772616D54797065070B747450726F
                               63656475726506536F75726365069670726F636564757265204D656D6F5F504A
@@ -5002,7 +5000,7 @@ object Report: TppReport
                               20275468656D613A2027202B205472696D28504A4B5F5468656D61293B0D0A65
                               6E643B0D0A0D436F6D706F6E656E744E616D65060E4D656D6F5F504A4B5F5468
                               656D61094576656E744E616D6506074F6E5072696E74074576656E7449440220
-                              084361726574506F730102350206000001060F5472614576656E7448616E646C
+                              084361726574506F730102010201000001060F5472614576656E7448616E646C
                               65720B50726F6772616D4E616D650612444254655F4C6565724F6E4765745465
                               78740B50726F6772616D54797065070B747450726F63656475726506536F7572
                               6365064D70726F63656475726520444254655F4C6565724F6E47657454657874
@@ -9949,7 +9947,7 @@ object Report: TppReport
       200D0A202053636872696674656E496E50444645696E62657474656E203A2062
       6F6F6C65616E3B0D0A2020556E69636F6465496E50444656657277656E64656E
       203A20626F6F6C65616E3B0D0A0D0A626567696E0D0A0D0A656E643B0D0A0843
-      61726574506F730102010201000001060A54726150726F6772616D094368696C
+      61726574506F730102050204000001060A54726150726F6772616D094368696C
       645479706502130B50726F6772616D4E616D65060E476C6F62616C4F6E437265
       6174650B50726F6772616D54797065070B747450726F63656475726506536F75
       726365069C70726F63656475726520476C6F62616C4F6E4372656174653B0D0A
