@@ -2,7 +2,9 @@ object Report: TppReport
   AutoStop = False
   DataPipeline = dmPipelines.Erzieher
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'Anlage 10 - Nichtzulassung zur Abiturpr'#252'fung - Erzieher.rtm'
+  PrinterSetup.DocumentName = 
+    'Anlage 11 - Nichtzulassung zur Abiturpr'#252'fung und Entlassung GOSt' +
+    ' - Erzieher.rtm'
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
@@ -16,8 +18,8 @@ object Report: TppReport
   SaveAsTemplate = True
   Template.FileName = 
     'C:\SchILD-NRW\SchILD-Reports\Zeugnisse\Schild-NRW-Zeugnisse-Sek2' +
-    '\GymOb\Anlage 10 - Nichtzulassung zur Abiturpr'#252'fung - Erzieher.r' +
-    'tm'
+    '\GymOb\Anlage 11 - Nichtzulassung zur Abiturpr'#252'fung und Entlassu' +
+    'ng GOSt - Erzieher.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -152,21 +154,21 @@ object Report: TppReport
         'mitteilen zu m\'#39'fcssen, dass $SieSohnTochterName$ nicht zur Abit' +
         'urpr\'#39'fcfung im Sommer $AbiJahr$ zugelassen werden $KoennenKann$' +
         ', weil $SieSohnTochter$ die Bedingungen gem\'#39'e4\'#39'df $Paragraph$ ' +
-        'APO-GOSt nicht $ErfuellenErfuellt$. $SieSohnTochter$ $NehmenNimm' +
-        't$ ab $Q1Datum$ am Unterricht des ersten Jahres der Qualifikatio' +
-        'nsphase $GymnasiumGesamtschule$ teil.\par'#13#10'\par'#13#10'\b Rechtsbehelf' +
-        'sbelehrung:\b0  Gegen die Nichtzulassung zur Abiturpr\'#39'fcfung ka' +
-        'nn innerhalb eines Monats nach Zustellung dieses Bescheides Wide' +
-        'rspruch erhoben werden. \par'#13#10'Der Widerspruch ist beim <dbtext d' +
-        'atapipeline='#39'EigeneSchule'#39'>Bezeichnung1</dbtext>, <dbtext datapi' +
-        'peline='#39'EigeneSchule'#39'>Strasse</dbtext> in <dbtext datapipeline='#39 +
-        'EigeneSchule'#39'>PlzOrt</dbtext> schriftlich oder zur Niederschrift' +
-        ' zu erheben.\par'#13#10'\par'#13#10'Mit freundlichen Gr\'#39'fc\'#39'dfen\f0\par'#13#10'}'#13 +
-        #10#0
+        'APO-GOSt nicht $ErfuellenErfuellt$. $SieSohnTochter$ $VerlassenV' +
+        'erlaesst$ gem\'#39'e4\'#39'df \'#39'a72 Abs. 1 APO-GOSt die gymnasiale Obers' +
+        'tufe.\par'#13#10'\par'#13#10'\b Rechtsbehelfsbelehrung:\b0  Gegen die Nichtz' +
+        'ulassung zur Abiturpr\'#39'fcfung und die Entlassung aus der gymnasi' +
+        'alen Oberstufe kann innerhalb eines Monats nach Zustellung diese' +
+        's Bescheides Widerspruch erhoben werden. \par'#13#10'Der Widerspruch i' +
+        'st beim <dbtext datapipeline='#39'EigeneSchule'#39'>Bezeichnung1</dbtext' +
+        '>, <dbtext datapipeline='#39'EigeneSchule'#39'>Strasse</dbtext> in <dbte' +
+        'xt datapipeline='#39'EigeneSchule'#39'>PlzOrt</dbtext> schriftlich oder ' +
+        'zur Niederschrift zu erheben.\par'#13#10'\par'#13#10'Mit freundlichen Gr\'#39'fc' +
+        '\'#39'dfen\f0\par'#13#10'}'#13#10#0
       RemoveEmptyLines = False
       Stretch = True
       Transparent = True
-      mmHeight = 98425
+      mmHeight = 102129
       mmLeft = 25000
       mmTop = 0
       mmWidth = 165000
@@ -188,7 +190,7 @@ object Report: TppReport
       TraverseAllData = False
       mmHeight = 6350
       mmLeft = 24871
-      mmTop = 99219
+      mmTop = 103188
       mmWidth = 165100
       BandType = 4
       LayerName = Foreground1
@@ -3142,7 +3144,7 @@ object Report: TppReport
       232323232323232323230D0A2020556E74657273636872696674536368756C74
       72616567657246696E616C203A3D20556E74657273636872696674656E536368
       756C74726165676572546578743B0D0A0D0A656E643B0D0A084361726574506F
-      73010205038200000001060F5472614576656E7448616E646C65720B50726F67
+      73010201038200000001060F5472614576656E7448616E646C65720B50726F67
       72616D4E616D65061144657461696C4265666F72655072696E740B50726F6772
       616D54797065070B747450726F63656475726506536F7572636506A470726F63
       65647572652044657461696C4265666F72655072696E743B0D0A626567696E20
@@ -3288,7 +3290,7 @@ object Report: TppReport
       20416E73636872656962656E446174756D73616E676162653129293B0D0A200D
       0A656E643B0D0A0D436F6D706F6E656E744E616D650609427269656674657874
       094576656E744E616D65060B4F6E4D61696C4D65726765074576656E74494403
-      8E00084361726574506F730102020237000001060F5472614576656E7448616E
+      8E00084361726574506F730102010207000001060F5472614576656E7448616E
       646C65720B50726F6772616D4E616D6506115265706F72744265666F72655072
       696E740B50726F6772616D54797065070B747450726F63656475726506536F75
       726365067D70726F636564757265205265706F72744265666F72655072696E74

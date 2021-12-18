@@ -2,7 +2,9 @@ object Report: TppReport
   AutoStop = False
   DataPipeline = dmPipelines.Erzieher
   PrinterSetup.BinName = 'Default'
-  PrinterSetup.DocumentName = 'Anlage 10 - Nichtzulassung zur Abiturpr'#252'fung - Erzieher.rtm'
+  PrinterSetup.DocumentName = 
+    'Anlage 18 - Nichtzulassung zur Wiederholungspr'#252'fung und Entlassu' +
+    'ng - Erzieher.rtm'
   PrinterSetup.PaperName = 'A4'
   PrinterSetup.PrinterName = 'Default'
   PrinterSetup.SaveDeviceSettings = False
@@ -16,8 +18,8 @@ object Report: TppReport
   SaveAsTemplate = True
   Template.FileName = 
     'C:\SchILD-NRW\SchILD-Reports\Zeugnisse\Schild-NRW-Zeugnisse-Sek2' +
-    '\GymOb\Anlage 10 - Nichtzulassung zur Abiturpr'#252'fung - Erzieher.r' +
-    'tm'
+    '\GymOb\Anlage 18 - Nichtzulassung zur Wiederholungspr'#252'fung und E' +
+    'ntlassung - Erzieher.rtm'
   Template.Format = ftASCII
   Units = utMillimeters
   AllowPrintToArchive = True
@@ -145,28 +147,27 @@ object Report: TppReport
         '{\rtf1\ansi\ansicpg1252\deff0\deflang1031\deflangfe1031{\fonttbl' +
         '{\f0\fswiss\fprq2\fcharset0 Calibri;}{\f1\fnil\fcharset0 Calibri' +
         ';}}'#13#10'{\colortbl ;\red0\green0\blue0;}'#13#10'\viewkind4\uc1\pard\cf1\b' +
-        '\f0\fs22\par'#13#10'\par'#13#10'\f1 Nichtzulassung zur Abiturpr\'#39'fcfung gem\' +
-        #39'e4\'#39'df der Verordnung \'#39'fcber den Bildungsgang und die Abiturpr' +
-        '\'#39'fcfung in der gymnasialen Oberstufe (APO-GOSt)\b0\par'#13#10'\par'#13#10'\' +
-        'par'#13#10'$Formelle Anrede$,\par'#13#10'\par'#13#10'\pard\qj wir bedauern, Ihnen ' +
-        'mitteilen zu m\'#39'fcssen, dass $SieSohnTochterName$ nicht zur Abit' +
-        'urpr\'#39'fcfung im Sommer $AbiJahr$ zugelassen werden $KoennenKann$' +
-        ', weil $SieSohnTochter$ die Bedingungen gem\'#39'e4\'#39'df $Paragraph$ ' +
-        'APO-GOSt nicht $ErfuellenErfuellt$. $SieSohnTochter$ $NehmenNimm' +
-        't$ ab $Q1Datum$ am Unterricht des ersten Jahres der Qualifikatio' +
-        'nsphase $GymnasiumGesamtschule$ teil.\par'#13#10'\par'#13#10'\b Rechtsbehelf' +
-        'sbelehrung:\b0  Gegen die Nichtzulassung zur Abiturpr\'#39'fcfung ka' +
-        'nn innerhalb eines Monats nach Zustellung dieses Bescheides Wide' +
-        'rspruch erhoben werden. \par'#13#10'Der Widerspruch ist beim <dbtext d' +
-        'atapipeline='#39'EigeneSchule'#39'>Bezeichnung1</dbtext>, <dbtext datapi' +
-        'peline='#39'EigeneSchule'#39'>Strasse</dbtext> in <dbtext datapipeline='#39 +
-        'EigeneSchule'#39'>PlzOrt</dbtext> schriftlich oder zur Niederschrift' +
-        ' zu erheben.\par'#13#10'\par'#13#10'Mit freundlichen Gr\'#39'fc\'#39'dfen\f0\par'#13#10'}'#13 +
-        #10#0
+        '\f0\fs22\par'#13#10'\par'#13#10'\f1 Nichtzulassung zur Wiederholungspr\'#39'fcfu' +
+        'ng und Entlassung aus der gymnasialen Oberstufe gem\'#39'e4\'#39'df der ' +
+        'Verordnung \'#39'fcber den Bildungsgang und die Abiturpr\'#39'fcfung in ' +
+        'der gymnasialen Oberstufe (APO-GOSt)\b0\par'#13#10'\par'#13#10'\par'#13#10'$Formel' +
+        'le Anrede$,\par'#13#10'\par'#13#10'\pard\qj wir bedauern, Ihnen mitteilen zu' +
+        ' m\'#39'fcssen, dass $SieSohnTochterName$ nach dem Wiederholungsjahr' +
+        ' nicht zur Abiturpr\'#39'fcfung zugelassen $WurdenWurde$. $SieSohnTo' +
+        'chter$ $VerlassenVerlaesst$ gem\'#39'e4\'#39'df \'#39'a72 Abs. 1 APO-GOSt di' +
+        'e gymnasiale Oberstufe.\par'#13#10'\par'#13#10'\b Rechtsbehelfsbelehrung:\b0' +
+        '  Gegen die Entscheidung \'#39'fcber die Nichtzulassung und die Entl' +
+        'assung aus der gymnasialen Oberstufe kann innerhalb eines Monats' +
+        ' nach Zustellung dieses Bescheides Widerspruch erhoben werden. \' +
+        'par'#13#10'Der Widerspruch ist beim <dbtext datapipeline='#39'EigeneSchule' +
+        #39'>Bezeichnung1</dbtext>, <dbtext datapipeline='#39'EigeneSchule'#39'>Str' +
+        'asse</dbtext> in <dbtext datapipeline='#39'EigeneSchule'#39'>PlzOrt</dbt' +
+        'ext> schriftlich oder zur Niederschrift zu erheben.\par'#13#10'\par'#13#10'M' +
+        'it freundlichen Gr\'#39'fc\'#39'dfen\f0\par'#13#10'}'#13#10#0
       RemoveEmptyLines = False
       Stretch = True
       Transparent = True
-      mmHeight = 98425
+      mmHeight = 99305
       mmLeft = 25000
       mmTop = 0
       mmWidth = 165000
@@ -188,7 +189,7 @@ object Report: TppReport
       TraverseAllData = False
       mmHeight = 6350
       mmLeft = 24871
-      mmTop = 99219
+      mmTop = 100277
       mmWidth = 165100
       BandType = 4
       LayerName = Foreground1
@@ -3288,7 +3289,7 @@ object Report: TppReport
       20416E73636872656962656E446174756D73616E676162653129293B0D0A200D
       0A656E643B0D0A0D436F6D706F6E656E744E616D650609427269656674657874
       094576656E744E616D65060B4F6E4D61696C4D65726765074576656E74494403
-      8E00084361726574506F730102020237000001060F5472614576656E7448616E
+      8E00084361726574506F730102010201000001060F5472614576656E7448616E
       646C65720B50726F6772616D4E616D6506115265706F72744265666F72655072
       696E740B50726F6772616D54797065070B747450726F63656475726506536F75
       726365067D70726F636564757265205265706F72744265666F72655072696E74
