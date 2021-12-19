@@ -160,11 +160,11 @@ object Report: TppReport
         'ulassung zur Abiturpr\'#39'fcfung und die Entlassung aus der gymnasi' +
         'alen Oberstufe kann innerhalb eines Monats nach Zustellung diese' +
         's Bescheides Widerspruch erhoben werden. \par'#13#10'Der Widerspruch i' +
-        'st beim <dbtext datapipeline='#39'EigeneSchule'#39'>Bezeichnung1</dbtext' +
-        '>, <dbtext datapipeline='#39'EigeneSchule'#39'>Strasse</dbtext> in <dbte' +
-        'xt datapipeline='#39'EigeneSchule'#39'>PlzOrt</dbtext> schriftlich oder ' +
-        'zur Niederschrift zu erheben.\par'#13#10'\par'#13#10'Mit freundlichen Gr\'#39'fc' +
-        '\'#39'dfen\f0\par'#13#10'}'#13#10#0
+        'st bei der Schule <dbtext datapipeline='#39'EigeneSchule'#39'>Bezeichnun' +
+        'g1</dbtext>, <dbtext datapipeline='#39'EigeneSchule'#39'>Strasse</dbtext' +
+        '> in <dbtext datapipeline='#39'EigeneSchule'#39'>PlzOrt</dbtext> schrift' +
+        'lich oder zur Niederschrift zu erheben.\par'#13#10'\par'#13#10'Mit freundlic' +
+        'hen Gr\'#39'fc\'#39'dfen\f0\par'#13#10'}'#13#10#0
       RemoveEmptyLines = False
       Stretch = True
       Transparent = True
@@ -696,70 +696,6 @@ object Report: TppReport
           mmMinHeight = 0
           mmLeading = 0
         end
-        object ppMemo4: TppMemo
-          UserName = 'InfoblockLinks'
-          Caption = 'InfoblockLinks'
-          CharWrap = False
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clGray
-          Font.Name = 'Calibri'
-          Font.Size = 10
-          Font.Style = []
-          Lines.Strings = (
-            'Name:'
-            'Funktion:'
-            ''
-            'Telefon:'
-            'Telefax:'
-            'Internet:'
-            'E-Mail:')
-          RemoveEmptyLines = False
-          Transparent = True
-          mmHeight = 35000
-          mmLeft = 125000
-          mmTop = 50000
-          mmWidth = 18000
-          BandType = 3
-          GroupNo = 0
-          LayerName = Foreground1
-          mmBottomOffset = 0
-          mmOverFlowOffset = 0
-          mmStopPosition = 0
-          mmMinHeight = 0
-          mmLeading = 0
-        end
-        object ppMemo5: TppMemo
-          UserName = 'InfoblockRechts'
-          Caption = 'Infoblock'
-          CharWrap = False
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
-          Font.Name = 'Calibri'
-          Font.Size = 10
-          Font.Style = []
-          Lines.Strings = (
-            'Max Mustermann'
-            'Schulleiter'
-            ''
-            '01234-5678'
-            '01234-56789'
-            'www.mustermann.de'
-            'max@mustermann.de')
-          RemoveEmptyLines = False
-          Transparent = True
-          mmHeight = 35000
-          mmLeft = 145000
-          mmTop = 50000
-          mmWidth = 55000
-          BandType = 3
-          GroupNo = 0
-          LayerName = Foreground1
-          mmBottomOffset = 0
-          mmOverFlowOffset = 0
-          mmStopPosition = 0
-          mmMinHeight = 0
-          mmLeading = 0
-        end
         object ppLabel4: TppLabel
           UserName = 'dbDatum'
           AutoSize = False
@@ -777,6 +713,123 @@ object Report: TppReport
           BandType = 3
           GroupNo = 0
           LayerName = Foreground1
+        end
+        object ppMemo4: TppMemo
+          UserName = 'InfoblockLinks1'
+          Caption = 'InfoblockLinks1'
+          CharWrap = False
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clGray
+          Font.Name = 'Calibri'
+          Font.Size = 10
+          Font.Style = []
+          Lines.Strings = (
+            'Name:'
+            'Funktion:')
+          RemoveEmptyLines = False
+          Transparent = True
+          mmHeight = 13495
+          mmLeft = 124884
+          mmTop = 50006
+          mmWidth = 18000
+          BandType = 3
+          GroupNo = 0
+          LayerName = Foreground1
+          mmBottomOffset = 0
+          mmOverFlowOffset = 0
+          mmStopPosition = 0
+          mmMinHeight = 0
+          mmLeading = 0
+        end
+        object ppMemo5: TppMemo
+          UserName = 'InfoblockRechts1'
+          Caption = 'Infoblock'
+          CharWrap = False
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Name = 'Calibri'
+          Font.Size = 10
+          Font.Style = []
+          Lines.Strings = (
+            'Max Mustermann'
+            'Schulleiter'
+            ''
+            '01234-5678'
+            '01234-56789'
+            'www.mustermann.de'
+            'max@mustermann.de')
+          RemoveEmptyLines = False
+          Transparent = True
+          mmHeight = 13496
+          mmLeft = 144992
+          mmTop = 50006
+          mmWidth = 55000
+          BandType = 3
+          GroupNo = 0
+          LayerName = Foreground1
+          mmBottomOffset = 0
+          mmOverFlowOffset = 0
+          mmStopPosition = 0
+          mmMinHeight = 0
+          mmLeading = 0
+        end
+        object ppMemo1: TppMemo
+          UserName = 'InfoblockLinks2'
+          Caption = 'InfoblockLinks1'
+          CharWrap = False
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clGray
+          Font.Name = 'Calibri'
+          Font.Size = 10
+          Font.Style = []
+          Lines.Strings = (
+            'Telefon:'
+            'Fax:'
+            'Web:'
+            'E-Mail:')
+          RemoveEmptyLines = False
+          Transparent = True
+          mmHeight = 21694
+          mmLeft = 124884
+          mmTop = 63236
+          mmWidth = 17992
+          BandType = 3
+          GroupNo = 0
+          LayerName = Foreground1
+          mmBottomOffset = 0
+          mmOverFlowOffset = 0
+          mmStopPosition = 0
+          mmMinHeight = 0
+          mmLeading = 0
+        end
+        object ppMemo2: TppMemo
+          UserName = 'InfoblockRechts2'
+          Caption = 'Infoblock'
+          CharWrap = False
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Name = 'Calibri'
+          Font.Size = 10
+          Font.Style = []
+          Lines.Strings = (
+            '01234-5678'
+            '01234-56789'
+            'www.mustermann.de'
+            'max@mustermann.de')
+          RemoveEmptyLines = False
+          Transparent = True
+          mmHeight = 21694
+          mmLeft = 144992
+          mmTop = 63236
+          mmWidth = 55033
+          BandType = 3
+          GroupNo = 0
+          LayerName = Foreground1
+          mmBottomOffset = 0
+          mmOverFlowOffset = 0
+          mmStopPosition = 0
+          mmMinHeight = 0
+          mmLeading = 0
         end
       end
     end
@@ -3366,38 +3419,41 @@ object Report: TppReport
       7449440200084361726574506F730102010201000001060F5472614576656E74
       48616E646C65720B50726F6772616D4E616D65061647726F7570314265666F72
       6547726F7570427265616B0B50726F6772616D54797065070B747450726F6365
-      6475726506536F757263650CE303000070726F6365647572652047726F757031
-      4265666F726547726F7570427265616B3B0D0A626567696E0D0A202053756D6D
-      655F474B203A3D20303B0D0A202053756D6D655F4C4B203A3D20303B0D0A2020
-      416E7A61686C5F4465665F4C4B203A3D20303B0D0A2020416E7A61686C5F4465
-      665F474B203A3D20303B0D0A2020416E7A61686C5F6265775F4B75727365203A
-      3D20303B0D0A20200D0A2020556E74657273636872696674656E45727374656C
-      6C656E3B090D0A20200D0A2020496E666F626C6F636B5265636874732E566973
-      69626C65203A3D2028416E73636872656962656E496E666F626C6F636B4E616D
-      6546756E6B74696F6E5175656C6C65203C3E20274B27293B200D0A20200D0A20
-      20696620496E666F626C6F636B5265636874732E56697369626C65207468656E
-      0D0A20202020696620416E73636872656962656E496E666F626C6F636B4E616D
-      6546756E6B74696F6E5175656C6C65203D20275527207468656E0D0A20202020
-      2020626567696E0D0A2020202020202020496E666F626C6F636B526563687473
-      2E4C696E65735B305D203A3D20496E666F626C6F636B4E616D6546696E616C3B
-      0D0A2020202020202020496E666F626C6F636B5265636874732E4C696E65735B
-      315D203A3D20496E666F626C6F636B46756E6B74696F6E46696E616C3B0D0A20
-      2020202020656E640D0A20202020656C736520696620416E7363687265696265
-      6E496E666F626C6F636B4E616D6546756E6B74696F6E5175656C6C65203D2027
-      4927207468656E0D0A202020202020626567696E0D0A2020202020202020496E
-      666F626C6F636B5265636874732E4C696E65735B305D203A3D20416E73636872
-      656962656E496E666F626C6F636B4E616D653B0D0A2020202020202020496E66
-      6F626C6F636B5265636874732E4C696E65735B315D203A3D20416E7363687265
-      6962656E496E666F626C6F636B46756E6B74696F6E3B20202020202020200D0A
-      202020202020656E643B20200D0A202020200D0A20202020496E666F626C6F63
-      6B5265636874732E4C696E65735B335D203A3D20416E73636872656962656E49
-      6E666F626C6F636B54656C65666F6E3B0D0A20202020496E666F626C6F636B52
-      65636874732E4C696E65735B345D203A3D20416E73636872656962656E496E66
-      6F626C6F636B4661783B0D0A20202020496E666F626C6F636B5265636874732E
-      4C696E65735B355D203A3D20416E73636872656962656E496E666F626C6F636B
-      5765623B0D0A20202020496E666F626C6F636B5265636874732E4C696E65735B
-      365D203A3D20416E73636872656962656E496E666F626C6F636B454D61696C3B
-      200D0A2020656E643B0D0A0D0A656E643B0D0A0D436F6D706F6E656E744E616D
+      6475726506536F757263650C4304000070726F6365647572652047726F757031
+      4265666F726547726F7570427265616B3B0D0A626567696E0D0A20200D0A2020
+      53756D6D655F474B203A3D20303B0D0A202053756D6D655F4C4B203A3D20303B
+      0D0A2020416E7A61686C5F4465665F4C4B203A3D20303B0D0A2020416E7A6168
+      6C5F4465665F474B203A3D20303B0D0A2020416E7A61686C5F6265775F4B7572
+      7365203A3D20303B0D0A20200D0A2020556E74657273636872696674656E4572
+      7374656C6C656E3B090D0A20200D0A2020496E666F626C6F636B526563687473
+      312E56697369626C65203A3D2028416E73636872656962656E496E666F626C6F
+      636B4E616D6546756E6B74696F6E5175656C6C65203C3E20274B27293B200D0A
+      2020496E666F626C6F636B526563687473322E56697369626C65203A3D202841
+      6E73636872656962656E496E666F626C6F636B4E616D6546756E6B74696F6E51
+      75656C6C65203C3E20274B27293B0D0A20200D0A2020696620496E666F626C6F
+      636B526563687473312E56697369626C65207468656E0D0A2020202069662041
+      6E73636872656962656E496E666F626C6F636B4E616D6546756E6B74696F6E51
+      75656C6C65203D20275527207468656E0D0A202020202020626567696E0D0A20
+      20202020202020496E666F626C6F636B526563687473312E4C696E65735B305D
+      203A3D20496E666F626C6F636B4E616D6546696E616C3B0D0A20202020202020
+      20496E666F626C6F636B526563687473312E4C696E65735B315D203A3D20496E
+      666F626C6F636B46756E6B74696F6E46696E616C3B0D0A202020202020656E64
+      0D0A20202020656C736520696620416E73636872656962656E496E666F626C6F
+      636B4E616D6546756E6B74696F6E5175656C6C65203D20274927207468656E0D
+      0A202020202020626567696E0D0A2020202020202020496E666F626C6F636B52
+      6563687473312E4C696E65735B305D203A3D20416E73636872656962656E496E
+      666F626C6F636B4E616D653B0D0A2020202020202020496E666F626C6F636B52
+      6563687473312E4C696E65735B315D203A3D20416E73636872656962656E496E
+      666F626C6F636B46756E6B74696F6E3B20202020202020200D0A202020202020
+      656E643B20200D0A202020200D0A20202020496E666F626C6F636B5265636874
+      73322E4C696E65735B305D203A3D20416E73636872656962656E496E666F626C
+      6F636B54656C65666F6E3B0D0A20202020496E666F626C6F636B526563687473
+      322E4C696E65735B315D203A3D20416E73636872656962656E496E666F626C6F
+      636B4661783B0D0A20202020496E666F626C6F636B526563687473322E4C696E
+      65735B325D203A3D20416E73636872656962656E496E666F626C6F636B576562
+      3B0D0A20202020496E666F626C6F636B526563687473322E4C696E65735B335D
+      203A3D20416E73636872656962656E496E666F626C6F636B454D61696C3B200D
+      0A2020656E643B0D0A20200D0A656E643B0D0A0D436F6D706F6E656E744E616D
       65060647726F757031094576656E744E616D6506104265666F726547726F7570
       427265616B074576656E744944021C084361726574506F730102010201000000}
   end
