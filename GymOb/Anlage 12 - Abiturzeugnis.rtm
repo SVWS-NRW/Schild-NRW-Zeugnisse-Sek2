@@ -1782,17 +1782,17 @@ object Report: TppReport
               RichText = 
                 '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil Cali' +
                 'bri;}{\f1\fnil\fcharset0 Corbel;}}'#13#10'{\colortbl ;\red0\green0\blu' +
-                'e0;}'#13#10'\viewkind4\uc1\pard\cf1\f0\fs18 Dem Zeugnis liegen zugrund' +
-                'e:\par'#13#10'\par'#13#10'Vereinbarung zur Gestaltung der gymnasialen Oberst' +
-                'ufe und der Abiturpr\f1\'#39'fc\f0 fung\par'#13#10'(Beschluss der Kultusmi' +
-                'nisterkonferenz vom 7. Juli 1972 in der jeweils geltenden Fassun' +
-                'g) \par'#13#10'\par'#13#10'Bildungsstandards f\f1\'#39'fc\f0 r die Allgemeine Ho' +
-                'chschulreife und Vereinbarungen \f1\'#39'fc\f0 ber die Einheitlichen' +
-                ' Pr\f1\'#39'fc\f0 fungsanforderungen in der Abiturpr\f1\'#39'fc\f0 fung\' +
-                'par'#13#10'\par'#13#10'Verordnung \f1\'#39'fc\f0 ber den Bildungsgang und die Ab' +
-                'iturpr\f1\'#39'fc\f0 fung in der gymnasialen Oberstufe - APO-GOSt - ' +
-                'vom 5. Oktober 1998 in der jeweils geltenden Fassung (BASS 13-32' +
-                ' Nr. 3.1)\par'#13#10'\par'#13#10'\par'#13#10'}'#13#10#0
+                'e0;}'#13#10'\viewkind4\uc1\pard\qc\cf1\f0\fs18 Dem Zeugnis liegen zugr' +
+                'unde:\par'#13#10'\par'#13#10'Vereinbarung zur Gestaltung der gymnasialen Obe' +
+                'rstufe und der Abiturpr\f1\'#39'fc\f0 fung\par'#13#10'(Beschluss der Kultu' +
+                'sministerkonferenz vom 7. Juli 1972 in der jeweils geltenden Fas' +
+                'sung) \par'#13#10'\par'#13#10'Bildungsstandards f\f1\'#39'fc\f0 r die Allgemeine' +
+                ' Hochschulreife und Vereinbarungen \f1\'#39'fc\f0 ber die Einheitlic' +
+                'hen Pr\f1\'#39'fc\f0 fungsanforderungen in der Abiturpr\f1\'#39'fc\f0 fu' +
+                'ng\par'#13#10'\par'#13#10'Verordnung \f1\'#39'fc\f0 ber den Bildungsgang und die' +
+                ' Abiturpr\f1\'#39'fc\f0 fung in der gymnasialen Oberstufe - APO-GOSt' +
+                ' - vom 5. Oktober 1998 in der jeweils geltenden Fassung (BASS 13' +
+                '-32 Nr. 3.1)\par'#13#10'\par'#13#10'\pard\par'#13#10'}'#13#10#0
               RemoveEmptyLines = False
               Stretch = True
               mmHeight = 42333
@@ -1885,26 +1885,25 @@ object Report: TppReport
                 ProgramStream = {
                   01060F5472614576656E7448616E646C65720B50726F6772616D4E616D650614
                   4D656D6F5F4C6175666261686E4F6E5072696E740B50726F6772616D54797065
-                  070B747450726F63656475726506536F75726365140E02000070726F63656475
+                  070B747450726F63656475726506536F7572636514EA01000070726F63656475
                   7265204D656D6F5F4C6175666261686E4F6E5072696E743B0D0A766172200D0A
                   202074783A20737472696E673B0D0A20200D0A626567696E0D0A0D0A20207478
                   203A3D2027273B0D0A0D0A20207478203A3D207478202B20276765626F72656E
                   20616D2027202B20466F726D61744461746554696D652827642E206D6D6D6D20
                   79797979272C2053636875656C65725B2747656275727473646174756D275D29
                   202B202720696E2027202B2053636875656C65725B27476562757274736F7274
-                  275D20202B20272C27202B2043687228313329202B2043687228313029202B20
-                  43687228313329202B20436872283130293B0D0A20200D0A20207478203A3D20
-                  7478202B2027776F686E6861667420696E2027202B2053636875656C65725B27
-                  504C5A275D202B20272027202B2053636875656C65725B274F727441626B275D
-                  202B20272C27202B2043687228313329202B2043687228313029202B20436872
-                  28313329202B20436872283130293B20200D0A20200D0A20207478203A3D2074
-                  78202B20276861742073696368206E6163682064656D20426573756368206465
-                  722067796D6E617369616C656E204F6265727374756665206465722041626974
-                  75727072C3BC66756E6720756E7465727A6F67656E2E273B0D0A202020200D0A
-                  20204D656D6F5F4C6175666261686E2E54657874203A3D2074783B0D0A20200D
-                  0A656E643B0D0A0D436F6D706F6E656E744E616D65060D4D656D6F5F4C617566
-                  6261686E094576656E744E616D6506074F6E5072696E74074576656E74494402
-                  20084361726574506F73010277020B000000}
+                  275D20202B2043687228313329202B2043687228313029202B20436872283133
+                  29202B20436872283130293B0D0A20200D0A20207478203A3D207478202B2027
+                  776F686E6861667420696E2027202B2053636875656C65725B274F727441626B
+                  275D202B2043687228313329202B2043687228313029202B2043687228313329
+                  202B20436872283130293B20200D0A20200D0A20207478203A3D207478202B20
+                  276861742073696368206E6163682064656D2042657375636820646572206779
+                  6D6E617369616C656E204F626572737475666520646572204162697475727072
+                  C3BC66756E6720756E7465727A6F67656E2E273B0D0A202020200D0A20204D65
+                  6D6F5F4C6175666261686E2E54657874203A3D2074783B0D0A20200D0A656E64
+                  3B0D0A0D436F6D706F6E656E744E616D65060D4D656D6F5F4C6175666261686E
+                  094576656E744E616D6506074F6E5072696E74074576656E7449440220084361
+                  726574506F7301021D020B000000}
               end
               object ppDesignLayers50: TppDesignLayers
                 object ppDesignLayer53: TppDesignLayer
@@ -2147,9 +2146,9 @@ object Report: TppReport
                 object ppShape28: TppShape
                   UserName = 'Shape28'
                   mmHeight = 35455
-                  mmLeft = 20108
+                  mmLeft = 14288
                   mmTop = 18521
-                  mmWidth = 169598
+                  mmWidth = 181505
                   BandType = 1
                   LayerName = Foreground5
                 end
@@ -2163,8 +2162,8 @@ object Report: TppReport
                   Font.Style = []
                   Transparent = True
                   mmHeight = 4784
-                  mmLeft = 28575
-                  mmTop = 25929
+                  mmLeft = 16120
+                  mmTop = 35469
                   mmWidth = 7239
                   BandType = 1
                   LayerName = Foreground5
@@ -2180,8 +2179,8 @@ object Report: TppReport
                   TextAlignment = taCentered
                   Transparent = True
                   mmHeight = 4784
-                  mmLeft = 100467
-                  mmTop = 48683
+                  mmLeft = 106562
+                  mmTop = 47358
                   mmWidth = 17230
                   BandType = 1
                   LayerName = Foreground5
@@ -2197,8 +2196,8 @@ object Report: TppReport
                   TextAlignment = taCentered
                   Transparent = True
                   mmHeight = 4784
-                  mmLeft = 123751
-                  mmTop = 48683
+                  mmLeft = 129846
+                  mmTop = 47358
                   mmWidth = 17230
                   BandType = 1
                   LayerName = Foreground5
@@ -2214,8 +2213,8 @@ object Report: TppReport
                   TextAlignment = taCentered
                   Transparent = True
                   mmHeight = 4784
-                  mmLeft = 147034
-                  mmTop = 48683
+                  mmLeft = 153129
+                  mmTop = 47358
                   mmWidth = 17230
                   BandType = 1
                   LayerName = Foreground5
@@ -2231,8 +2230,8 @@ object Report: TppReport
                   TextAlignment = taCentered
                   Transparent = True
                   mmHeight = 4784
-                  mmLeft = 170317
-                  mmTop = 48683
+                  mmLeft = 176412
+                  mmTop = 47358
                   mmWidth = 17230
                   BandType = 1
                   LayerName = Foreground5
@@ -2247,7 +2246,7 @@ object Report: TppReport
                   Font.Style = [fsBold]
                   Transparent = True
                   mmHeight = 4784
-                  mmLeft = 15000
+                  mmLeft = 14205
                   mmTop = 12700
                   mmWidth = 73025
                   BandType = 1
@@ -2264,7 +2263,7 @@ object Report: TppReport
                   TextAlignment = taCentered
                   Transparent = True
                   mmHeight = 4784
-                  mmLeft = 134811
+                  mmLeft = 140906
                   mmTop = 21167
                   mmWidth = 17314
                   BandType = 1
@@ -2280,7 +2279,7 @@ object Report: TppReport
                   Font.Style = []
                   Transparent = True
                   mmHeight = 2582
-                  mmLeft = 152665
+                  mmLeft = 158760
                   mmTop = 20638
                   mmWidth = 1693
                   BandType = 1
@@ -2290,7 +2289,7 @@ object Report: TppReport
                   UserName = 'Line17'
                   Weight = 0.750000000000000000
                   mmHeight = 2117
-                  mmLeft = 97367
+                  mmLeft = 103462
                   mmTop = 46567
                   mmWidth = 92340
                   BandType = 1
@@ -2301,7 +2300,7 @@ object Report: TppReport
                   Position = lpLeft
                   Weight = 0.750000000000000000
                   mmHeight = 7144
-                  mmLeft = 120386
+                  mmLeft = 126481
                   mmTop = 46302
                   mmWidth = 2117
                   BandType = 1
@@ -2312,7 +2311,7 @@ object Report: TppReport
                   Position = lpLeft
                   Weight = 0.750000000000000000
                   mmHeight = 19050
-                  mmLeft = 143404
+                  mmLeft = 149499
                   mmTop = 34396
                   mmWidth = 2117
                   BandType = 1
@@ -2323,7 +2322,7 @@ object Report: TppReport
                   Position = lpLeft
                   Weight = 0.750000000000000000
                   mmHeight = 7144
-                  mmLeft = 166423
+                  mmLeft = 172518
                   mmTop = 46302
                   mmWidth = 2117
                   BandType = 1
@@ -2334,7 +2333,7 @@ object Report: TppReport
                   Position = lpLeft
                   Weight = 0.750000000000000000
                   mmHeight = 34925
-                  mmLeft = 97367
+                  mmLeft = 103462
                   mmTop = 18521
                   mmWidth = 2117
                   BandType = 1
@@ -2350,8 +2349,8 @@ object Report: TppReport
                   Font.Style = []
                   Transparent = True
                   mmHeight = 2582
-                  mmLeft = 37042
-                  mmTop = 25401
+                  mmLeft = 24587
+                  mmTop = 34941
                   mmWidth = 1693
                   BandType = 1
                   LayerName = Foreground5
@@ -2367,8 +2366,8 @@ object Report: TppReport
                   TextAlignment = taCentered
                   Transparent = True
                   mmHeight = 4784
-                  mmLeft = 109665
-                  mmTop = 27517
+                  mmLeft = 115760
+                  mmTop = 26987
                   mmWidth = 67945
                   BandType = 1
                   LayerName = Foreground5
@@ -2377,7 +2376,7 @@ object Report: TppReport
                   UserName = 'Line71'
                   Weight = 0.750000000000000000
                   mmHeight = 2117
-                  mmLeft = 97367
+                  mmLeft = 103462
                   mmTop = 34396
                   mmWidth = 92340
                   BandType = 1
@@ -2396,7 +2395,7 @@ object Report: TppReport
                   Transparent = True
                   WordWrap = True
                   mmHeight = 10319
-                  mmLeft = 97367
+                  mmLeft = 103462
                   mmTop = 35454
                   mmWidth = 46302
                   BandType = 1
@@ -2415,7 +2414,7 @@ object Report: TppReport
                   Transparent = True
                   WordWrap = True
                   mmHeight = 10319
-                  mmLeft = 143404
+                  mmLeft = 149499
                   mmTop = 35454
                   mmWidth = 46302
                   BandType = 1
@@ -2477,9 +2476,9 @@ object Report: TppReport
                       object ppShape30: TppShape
                         UserName = 'Shape30'
                         mmHeight = 8467
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 1
                         LayerName = Foreground10
                       end
@@ -2493,7 +2492,7 @@ object Report: TppReport
                         Font.Style = [fsBold]
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 21696
+                        mmLeft = 16140
                         mmTop = 2117
                         mmWidth = 80349
                         BandType = 1
@@ -2510,9 +2509,9 @@ object Report: TppReport
                       object ppShape35: TppShape
                         UserName = 'Shape35'
                         mmHeight = 7673
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 4
                         LayerName = Foreground10
                       end
@@ -2529,8 +2528,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 22225
-                        mmTop = 1609
+                        mmLeft = 16140
+                        mmTop = 1079
                         mmWidth = 12912
                         BandType = 4
                         LayerName = Foreground10
@@ -2548,8 +2547,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 101600
-                        mmTop = 1609
+                        mmLeft = 107695
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground10
@@ -2567,8 +2566,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 124884
-                        mmTop = 1609
+                        mmLeft = 130979
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground10
@@ -2586,8 +2585,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 148167
-                        mmTop = 1609
+                        mmLeft = 154262
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground10
@@ -2605,8 +2604,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 171450
-                        mmTop = 1609
+                        mmLeft = 177545
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground10
@@ -2616,7 +2615,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 120386
+                        mmLeft = 126481
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -2627,7 +2626,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 143404
+                        mmLeft = 149499
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -2638,7 +2637,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 166423
+                        mmLeft = 172518
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -2649,7 +2648,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 97367
+                        mmLeft = 103462
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -2781,9 +2780,9 @@ object Report: TppReport
                       object ppShape39: TppShape
                         UserName = 'Shape39'
                         mmHeight = 7673
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 4
                         LayerName = Foreground19
                       end
@@ -2800,8 +2799,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 22225
-                        mmTop = 1609
+                        mmLeft = 16140
+                        mmTop = 1079
                         mmWidth = 12912
                         BandType = 4
                         LayerName = Foreground19
@@ -2819,8 +2818,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 101600
-                        mmTop = 1609
+                        mmLeft = 107695
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground19
@@ -2838,8 +2837,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 124884
-                        mmTop = 1609
+                        mmLeft = 130979
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground19
@@ -2857,8 +2856,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 148167
-                        mmTop = 1609
+                        mmLeft = 154262
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground19
@@ -2876,8 +2875,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 171450
-                        mmTop = 1609
+                        mmLeft = 177545
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground19
@@ -2887,7 +2886,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 97367
+                        mmLeft = 103462
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -2898,7 +2897,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 120386
+                        mmLeft = 126481
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -2909,7 +2908,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 143404
+                        mmLeft = 149499
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -2920,7 +2919,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 166423
+                        mmLeft = 172518
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -3054,9 +3053,9 @@ object Report: TppReport
                       object ppShape40: TppShape
                         UserName = 'Shape40'
                         mmHeight = 7673
-                        mmLeft = 20108
+                        mmLeft = 14278
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 4
                         LayerName = Foreground20
                       end
@@ -3073,8 +3072,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 22225
-                        mmTop = 1609
+                        mmLeft = 16140
+                        mmTop = 1079
                         mmWidth = 12912
                         BandType = 4
                         LayerName = Foreground20
@@ -3092,8 +3091,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 101600
-                        mmTop = 1609
+                        mmLeft = 107695
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground20
@@ -3111,8 +3110,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 124884
-                        mmTop = 1609
+                        mmLeft = 130979
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground20
@@ -3130,8 +3129,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 148167
-                        mmTop = 1609
+                        mmLeft = 154262
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground20
@@ -3149,8 +3148,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 171450
-                        mmTop = 1609
+                        mmLeft = 177545
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground20
@@ -3160,7 +3159,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 97367
+                        mmLeft = 103462
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -3171,7 +3170,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 120386
+                        mmLeft = 126481
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -3182,7 +3181,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 143404
+                        mmLeft = 149499
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -3193,7 +3192,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 166423
+                        mmLeft = 172518
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -3328,9 +3327,9 @@ object Report: TppReport
                       object ppShape31: TppShape
                         UserName = 'Shape301'
                         mmHeight = 12700
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 1
                         LayerName = Foreground16
                       end
@@ -3344,7 +3343,7 @@ object Report: TppReport
                         Font.Style = [fsBold]
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 21696
+                        mmLeft = 15601
                         mmTop = 6356
                         mmWidth = 73406
                         BandType = 1
@@ -3361,9 +3360,9 @@ object Report: TppReport
                       object ppShape19: TppShape
                         UserName = 'Shape19'
                         mmHeight = 7673
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 4
                         LayerName = Foreground16
                       end
@@ -3380,8 +3379,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 22225
-                        mmTop = 1609
+                        mmLeft = 16130
+                        mmTop = 1079
                         mmWidth = 12912
                         BandType = 4
                         LayerName = Foreground16
@@ -3399,8 +3398,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 101600
-                        mmTop = 1609
+                        mmLeft = 107695
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground16
@@ -3418,8 +3417,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 124884
-                        mmTop = 1609
+                        mmLeft = 130979
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground16
@@ -3437,8 +3436,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 148167
-                        mmTop = 1609
+                        mmLeft = 154262
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground16
@@ -3456,8 +3455,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 171450
-                        mmTop = 1609
+                        mmLeft = 177545
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground16
@@ -3467,7 +3466,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 97367
+                        mmLeft = 103462
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -3478,7 +3477,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 120386
+                        mmLeft = 126481
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -3489,7 +3488,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 143404
+                        mmLeft = 149499
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -3500,7 +3499,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 166423
+                        mmLeft = 172518
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -3631,9 +3630,9 @@ object Report: TppReport
                       object ppShape32: TppShape
                         UserName = 'Shape302'
                         mmHeight = 12700
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 1
                         LayerName = Foreground17
                       end
@@ -3647,7 +3646,7 @@ object Report: TppReport
                         Font.Style = [fsBold]
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 21696
+                        mmLeft = 16131
                         mmTop = 6356
                         mmWidth = 102024
                         BandType = 1
@@ -3664,9 +3663,9 @@ object Report: TppReport
                       object ppShape37: TppShape
                         UserName = 'Shape37'
                         mmHeight = 7673
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 4
                         LayerName = Foreground17
                       end
@@ -3683,8 +3682,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 22225
-                        mmTop = 1609
+                        mmLeft = 16130
+                        mmTop = 1079
                         mmWidth = 12912
                         BandType = 4
                         LayerName = Foreground17
@@ -3702,8 +3701,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 101600
-                        mmTop = 1609
+                        mmLeft = 107695
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground17
@@ -3721,8 +3720,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 124884
-                        mmTop = 1609
+                        mmLeft = 130979
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground17
@@ -3740,8 +3739,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 148167
-                        mmTop = 1609
+                        mmLeft = 154262
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground17
@@ -3759,8 +3758,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 171450
-                        mmTop = 1609
+                        mmLeft = 177545
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground17
@@ -3770,7 +3769,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 97367
+                        mmLeft = 103462
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -3781,7 +3780,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 120386
+                        mmLeft = 126481
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -3792,7 +3791,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 143404
+                        mmLeft = 149499
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -3803,7 +3802,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 166423
+                        mmLeft = 172518
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -3935,9 +3934,9 @@ object Report: TppReport
                       object ppShape41: TppShape
                         UserName = 'Shape41'
                         mmHeight = 7673
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 4
                         LayerName = Foreground1
                       end
@@ -3954,8 +3953,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 22225
-                        mmTop = 1609
+                        mmLeft = 16130
+                        mmTop = 1079
                         mmWidth = 12912
                         BandType = 4
                         LayerName = Foreground1
@@ -3973,8 +3972,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 101600
-                        mmTop = 1609
+                        mmLeft = 107695
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground1
@@ -3992,8 +3991,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 124884
-                        mmTop = 1609
+                        mmLeft = 130979
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground1
@@ -4011,8 +4010,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 148167
-                        mmTop = 1609
+                        mmLeft = 154262
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground1
@@ -4030,8 +4029,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 171450
-                        mmTop = 1609
+                        mmLeft = 177545
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground1
@@ -4041,7 +4040,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 97367
+                        mmLeft = 103462
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -4052,7 +4051,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 120386
+                        mmLeft = 126481
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -4063,7 +4062,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 143404
+                        mmLeft = 149499
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -4074,7 +4073,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 166423
+                        mmLeft = 172518
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -4205,9 +4204,9 @@ object Report: TppReport
                       object ppShape33: TppShape
                         UserName = 'Shape303'
                         mmHeight = 6350
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 1
                         LayerName = Foreground18
                       end
@@ -4221,9 +4220,9 @@ object Report: TppReport
                       object ppShape38: TppShape
                         UserName = 'Shape38'
                         mmHeight = 7673
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 4
                         LayerName = Foreground18
                       end
@@ -4240,8 +4239,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 22225
-                        mmTop = 1588
+                        mmLeft = 16130
+                        mmTop = 1058
                         mmWidth = 12912
                         BandType = 4
                         LayerName = Foreground18
@@ -4259,8 +4258,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 101600
-                        mmTop = 1609
+                        mmLeft = 107695
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground18
@@ -4278,8 +4277,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 124884
-                        mmTop = 1609
+                        mmLeft = 130979
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground18
@@ -4297,8 +4296,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 148167
-                        mmTop = 1609
+                        mmLeft = 154262
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground18
@@ -4316,8 +4315,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 171450
-                        mmTop = 1609
+                        mmLeft = 177545
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground18
@@ -4327,7 +4326,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 97367
+                        mmLeft = 103462
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -4338,7 +4337,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 120386
+                        mmLeft = 126481
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -4349,7 +4348,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 143404
+                        mmLeft = 149499
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -4360,7 +4359,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 166423
+                        mmLeft = 172518
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -4491,9 +4490,9 @@ object Report: TppReport
                       object ppShape24: TppShape
                         UserName = 'Shape304'
                         mmHeight = 4233
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 1
                         LayerName = Foreground13
                       end
@@ -4508,9 +4507,9 @@ object Report: TppReport
                       object ppShape42: TppShape
                         UserName = 'Shape42'
                         mmHeight = 7673
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 4
                         LayerName = Foreground13
                       end
@@ -4527,8 +4526,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 22225
-                        mmTop = 1609
+                        mmLeft = 16130
+                        mmTop = 1079
                         mmWidth = 12912
                         BandType = 4
                         LayerName = Foreground13
@@ -4546,8 +4545,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 101600
-                        mmTop = 1609
+                        mmLeft = 107695
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground13
@@ -4565,8 +4564,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 124884
-                        mmTop = 1609
+                        mmLeft = 130979
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground13
@@ -4584,8 +4583,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 148167
-                        mmTop = 1609
+                        mmLeft = 154262
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground13
@@ -4603,8 +4602,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 171450
-                        mmTop = 1609
+                        mmLeft = 177545
+                        mmTop = 1079
                         mmWidth = 14817
                         BandType = 4
                         LayerName = Foreground13
@@ -4614,7 +4613,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 97367
+                        mmLeft = 103462
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -4625,7 +4624,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 120386
+                        mmLeft = 126481
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -4636,7 +4635,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 143404
+                        mmLeft = 149499
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -4647,7 +4646,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 7408
-                        mmLeft = 166423
+                        mmLeft = 172518
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -4782,9 +4781,9 @@ object Report: TppReport
                       object ppShape17: TppShape
                         UserName = 'Shape17'
                         mmHeight = 4233
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 1
                         LayerName = PageLayer5
                       end
@@ -4801,9 +4800,9 @@ object Report: TppReport
                         UserName = 'Shape8'
                         StretchWithParent = True
                         mmHeight = 13229
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 4
                         LayerName = PageLayer5
                       end
@@ -4817,7 +4816,7 @@ object Report: TppReport
                         Font.Style = [fsItalic]
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 22754
+                        mmLeft = 16129
                         mmTop = 7673
                         mmWidth = 11896
                         BandType = 4
@@ -4833,7 +4832,7 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 2582
-                        mmLeft = 42331
+                        mmLeft = 35706
                         mmTop = 265
                         mmWidth = 1693
                         BandType = 4
@@ -4849,7 +4848,7 @@ object Report: TppReport
                         Font.Style = [fsBold]
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 22490
+                        mmLeft = 15865
                         mmTop = 1059
                         mmWidth = 18500
                         BandType = 4
@@ -4866,7 +4865,7 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 107728
+                        mmLeft = 113823
                         mmTop = 1059
                         mmWidth = 2371
                         BandType = 4
@@ -4883,7 +4882,7 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 130746
+                        mmLeft = 136841
                         mmTop = 1059
                         mmWidth = 2371
                         BandType = 4
@@ -4900,7 +4899,7 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 153765
+                        mmLeft = 159860
                         mmTop = 1059
                         mmWidth = 2371
                         BandType = 4
@@ -4917,7 +4916,7 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 176784
+                        mmLeft = 182879
                         mmTop = 1059
                         mmWidth = 2371
                         BandType = 4
@@ -4927,7 +4926,7 @@ object Report: TppReport
                         UserName = 'Line40'
                         Weight = 0.750000000000000000
                         mmHeight = 2117
-                        mmLeft = 97367
+                        mmLeft = 103462
                         mmTop = 6615
                         mmWidth = 92075
                         BandType = 4
@@ -4938,7 +4937,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 6615
-                        mmLeft = 97367
+                        mmLeft = 103462
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -4949,7 +4948,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 6615
-                        mmLeft = 120386
+                        mmLeft = 126481
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -4960,7 +4959,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 6615
-                        mmLeft = 166423
+                        mmLeft = 172518
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -4971,7 +4970,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 6615
-                        mmLeft = 143404
+                        mmLeft = 149499
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -4990,7 +4989,7 @@ object Report: TppReport
                         Stretch = True
                         Transparent = True
                         mmHeight = 4763
-                        mmLeft = 36248
+                        mmLeft = 29623
                         mmTop = 7673
                         mmWidth = 151342
                         BandType = 4
@@ -5011,9 +5010,9 @@ object Report: TppReport
                       object ppShape22: TppShape
                         UserName = 'Shape9'
                         mmHeight = 13229
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 7
                         LayerName = PageLayer5
                       end
@@ -5027,7 +5026,7 @@ object Report: TppReport
                         Font.Style = [fsItalic]
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 22754
+                        mmLeft = 16129
                         mmTop = 7673
                         mmWidth = 16341
                         BandType = 7
@@ -5043,7 +5042,7 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 2582
-                        mmLeft = 42331
+                        mmLeft = 35706
                         mmTop = 265
                         mmWidth = 1693
                         BandType = 7
@@ -5059,7 +5058,7 @@ object Report: TppReport
                         Font.Style = [fsBold]
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 22490
+                        mmLeft = 15865
                         mmTop = 1059
                         mmWidth = 18500
                         BandType = 7
@@ -5076,7 +5075,7 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 107728
+                        mmLeft = 113823
                         mmTop = 1059
                         mmWidth = 2371
                         BandType = 7
@@ -5093,7 +5092,7 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 130746
+                        mmLeft = 136841
                         mmTop = 1059
                         mmWidth = 2371
                         BandType = 7
@@ -5110,7 +5109,7 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 153765
+                        mmLeft = 159860
                         mmTop = 1059
                         mmWidth = 2371
                         BandType = 7
@@ -5127,7 +5126,7 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 176784
+                        mmLeft = 182879
                         mmTop = 1059
                         mmWidth = 2371
                         BandType = 7
@@ -5138,7 +5137,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 6615
-                        mmLeft = 97367
+                        mmLeft = 103462
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 7
@@ -5149,7 +5148,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 6615
-                        mmLeft = 120386
+                        mmLeft = 126481
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 7
@@ -5160,7 +5159,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 6615
-                        mmLeft = 143404
+                        mmLeft = 149499
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 7
@@ -5171,7 +5170,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 6615
-                        mmLeft = 166423
+                        mmLeft = 172518
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 7
@@ -5181,7 +5180,7 @@ object Report: TppReport
                         UserName = 'Line402'
                         Weight = 0.750000000000000000
                         mmHeight = 2117
-                        mmLeft = 97367
+                        mmLeft = 103462
                         mmTop = 6615
                         mmWidth = 92075
                         BandType = 7
@@ -5362,7 +5361,7 @@ object Report: TppReport
                         Font.Style = [fsBold]
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 22754
+                        mmLeft = 16129
                         mmTop = 529
                         mmWidth = 28533
                         BandType = 1
@@ -5378,7 +5377,7 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 2582
-                        mmLeft = 53711
+                        mmLeft = 47086
                         mmTop = 0
                         mmWidth = 1693
                         BandType = 1
@@ -5390,7 +5389,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 5292
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
                         mmWidth = 1852
                         BandType = 1
@@ -5402,7 +5401,7 @@ object Report: TppReport
                         Position = lpRight
                         Weight = 0.750000000000000000
                         mmHeight = 5292
-                        mmLeft = 187855
+                        mmLeft = 193940
                         mmTop = 0
                         mmWidth = 1852
                         BandType = 1
@@ -5419,9 +5418,9 @@ object Report: TppReport
                       object ppShape11: TppShape
                         UserName = 'Shape11'
                         mmHeight = 6615
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 4
                         LayerName = PageLayer8
                       end
@@ -5435,7 +5434,7 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 4763
-                        mmLeft = 22225
+                        mmLeft = 16130
                         mmTop = 1058
                         mmWidth = 20638
                         BandType = 4
@@ -5446,7 +5445,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 6615
-                        mmLeft = 97367
+                        mmLeft = 103462
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -5457,7 +5456,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 6615
-                        mmLeft = 120386
+                        mmLeft = 126481
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -5468,7 +5467,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 6615
-                        mmLeft = 166423
+                        mmLeft = 172518
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -5479,7 +5478,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 6615
-                        mmLeft = 143404
+                        mmLeft = 149499
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -5498,7 +5497,7 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 97367
+                        mmLeft = 103462
                         mmTop = 1058
                         mmWidth = 22767
                         BandType = 4
@@ -5517,7 +5516,7 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 120386
+                        mmLeft = 126481
                         mmTop = 1058
                         mmWidth = 22767
                         BandType = 4
@@ -5536,7 +5535,7 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 143404
+                        mmLeft = 149499
                         mmTop = 1058
                         mmWidth = 22767
                         BandType = 4
@@ -5555,7 +5554,7 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbifaecher'
                         mmHeight = 4784
-                        mmLeft = 166423
+                        mmLeft = 172518
                         mmTop = 1058
                         mmWidth = 22767
                         BandType = 4
@@ -5575,10 +5574,10 @@ object Report: TppReport
                         Font.Color = clWindowText
                         Font.Name = 'Calibri'
                         Font.Size = 11
-                        Font.Style = [fsItalic]
+                        Font.Style = []
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 25400
+                        mmLeft = 16125
                         mmTop = 0
                         mmWidth = 15610
                         BandType = 7
@@ -5590,7 +5589,7 @@ object Report: TppReport
                         Position = lpRight
                         Weight = 0.750000000000000000
                         mmHeight = 5292
-                        mmLeft = 187855
+                        mmLeft = 193940
                         mmTop = 0
                         mmWidth = 1852
                         BandType = 7
@@ -5602,7 +5601,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 5292
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
                         mmWidth = 1852
                         BandType = 7
@@ -5613,9 +5612,9 @@ object Report: TppReport
                         Position = lpBottom
                         Weight = 0.750000000000000000
                         mmHeight = 2117
-                        mmLeft = 20638
+                        mmLeft = 14288
                         mmTop = 3175
-                        mmWidth = 169069
+                        mmWidth = 181505
                         BandType = 7
                         LayerName = PageLayer8
                       end
@@ -5728,8 +5727,8 @@ object Report: TppReport
                   TraverseAllData = False
                   mmHeight = 6350
                   mmLeft = 10054
-                  mmTop = 185699
-                  mmWidth = 169334
+                  mmTop = 184904
+                  mmWidth = 189971
                   BandType = 4
                   LayerName = Foreground5
                   mmBottomOffset = 0
@@ -5758,7 +5757,7 @@ object Report: TppReport
                       Background.Brush.Style = bsClear
                       PrintHeight = phDynamic
                       mmBottomOffset = 0
-                      mmHeight = 16669
+                      mmHeight = 10583
                       mmPrintPosition = 0
                       object ppLine83: TppLine
                         UserName = 'Line83'
@@ -8211,7 +8210,7 @@ object Report: TppReport
                       Background.Brush.Style = bsClear
                       PrintHeight = phDynamic
                       mmBottomOffset = 0
-                      mmHeight = 17727
+                      mmHeight = 16404
                       mmPrintPosition = 0
                       object ppMemo7: TppMemo
                         UserName = 'Memo_FN_Seite2_Nr2'
@@ -8262,8 +8261,9 @@ object Report: TppReport
                             'd hier nur die Belegung ausgewiesen.'
                           'Bemerkungen gem'#228#223' Nr. 13.1 VVzAPO-GOSt: teilgenommen.')
                         RemoveEmptyLines = False
+                        Stretch = True
                         Transparent = True
-                        mmHeight = 17188
+                        mmHeight = 15863
                         mmLeft = 5805
                         mmTop = 530
                         mmWidth = 181012
@@ -8395,14 +8395,14 @@ object Report: TppReport
               object ppTitleBand6: TppTitleBand
                 Background.Brush.Style = bsClear
                 mmBottomOffset = 0
-                mmHeight = 30000
+                mmHeight = 30163
                 mmPrintPosition = 0
                 object ppShape18: TppShape
                   UserName = 'Shape18'
                   mmHeight = 11642
-                  mmLeft = 20108
+                  mmLeft = 14288
                   mmTop = 18521
-                  mmWidth = 169598
+                  mmWidth = 181505
                   BandType = 1
                   LayerName = Foreground6
                 end
@@ -8416,7 +8416,7 @@ object Report: TppReport
                   Font.Style = [fsBold]
                   Transparent = True
                   mmHeight = 4784
-                  mmLeft = 15081
+                  mmLeft = 14286
                   mmTop = 12790
                   mmWidth = 61172
                   BandType = 1
@@ -8433,8 +8433,8 @@ object Report: TppReport
                   TextAlignment = taCentered
                   Transparent = True
                   mmHeight = 4784
-                  mmLeft = 30570
-                  mmTop = 24342
+                  mmLeft = 16260
+                  mmTop = 24607
                   mmWidth = 20616
                   BandType = 1
                   LayerName = Foreground6
@@ -8449,9 +8449,9 @@ object Report: TppReport
                   Font.Style = []
                   TextAlignment = taCentered
                   mmHeight = 4784
-                  mmLeft = 126609
-                  mmTop = 19579
-                  mmWidth = 61680
+                  mmLeft = 125148
+                  mmTop = 18784
+                  mmWidth = 70644
                   BandType = 1
                   LayerName = Foreground6
                 end
@@ -8467,9 +8467,9 @@ object Report: TppReport
                   TextAlignment = taCentered
                   Transparent = True
                   mmHeight = 4784
-                  mmLeft = 133879
-                  mmTop = 25400
-                  mmWidth = 15610
+                  mmLeft = 125148
+                  mmTop = 24605
+                  mmWidth = 35719
                   BandType = 1
                   LayerName = Foreground6
                 end
@@ -8485,19 +8485,19 @@ object Report: TppReport
                   TextAlignment = taCentered
                   Transparent = True
                   mmHeight = 4784
-                  mmLeft = 166952
-                  mmTop = 25400
-                  mmWidth = 14817
+                  mmLeft = 160867
+                  mmTop = 24605
+                  mmWidth = 34925
                   BandType = 1
                   LayerName = Foreground6
                 end
                 object ppLine11: TppLine
                   UserName = 'Line11'
                   Weight = 0.750000000000000000
-                  mmHeight = 5556
+                  mmHeight = 1852
                   mmLeft = 125148
-                  mmTop = 24606
-                  mmWidth = 64558
+                  mmTop = 24341
+                  mmWidth = 70644
                   BandType = 1
                   LayerName = Foreground6
                 end
@@ -8506,7 +8506,7 @@ object Report: TppReport
                   Position = lpLeft
                   Weight = 0.750000000000000000
                   mmHeight = 5556
-                  mmLeft = 157692
+                  mmLeft = 160872
                   mmTop = 24606
                   mmWidth = 2117
                   BandType = 1
@@ -8533,8 +8533,8 @@ object Report: TppReport
                   Font.Style = []
                   Transparent = True
                   mmHeight = 2582
-                  mmLeft = 51594
-                  mmTop = 23814
+                  mmLeft = 37284
+                  mmTop = 24079
                   mmWidth = 1693
                   BandType = 1
                   LayerName = Foreground6
@@ -8596,9 +8596,9 @@ object Report: TppReport
                       object ppShape20: TppShape
                         UserName = 'Shape20'
                         mmHeight = 11642
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 4
                         LayerName = Foreground24
                       end
@@ -8612,8 +8612,8 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 4762
-                        mmLeft = 22225
-                        mmTop = 3440
+                        mmLeft = 16140
+                        mmTop = 3175
                         mmWidth = 24342
                         BandType = 4
                         LayerName = Foreground24
@@ -8629,9 +8629,9 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 130229
-                        mmTop = 3440
-                        mmWidth = 23029
+                        mmLeft = 124884
+                        mmTop = 3175
+                        mmWidth = 35983
                         BandType = 4
                         LayerName = Foreground24
                       end
@@ -8646,9 +8646,9 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 161534
-                        mmTop = 3440
-                        mmWidth = 24299
+                        mmLeft = 160867
+                        mmTop = 3175
+                        mmWidth = 34925
                         BandType = 4
                         LayerName = Foreground24
                       end
@@ -8657,7 +8657,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 11642
-                        mmLeft = 157692
+                        mmLeft = 160872
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -8779,9 +8779,9 @@ object Report: TppReport
                       object ppShape13: TppShape
                         UserName = 'Shape201'
                         mmHeight = 11642
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 4
                         LayerName = Foreground25
                       end
@@ -8795,8 +8795,8 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 22225
-                        mmTop = 3440
+                        mmLeft = 16140
+                        mmTop = 3175
                         mmWidth = 23961
                         BandType = 4
                         LayerName = Foreground25
@@ -8812,9 +8812,9 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 130229
-                        mmTop = 3440
-                        mmWidth = 23029
+                        mmLeft = 124884
+                        mmTop = 3175
+                        mmWidth = 35983
                         BandType = 4
                         LayerName = Foreground25
                       end
@@ -8829,9 +8829,9 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 161534
-                        mmTop = 3440
-                        mmWidth = 24299
+                        mmLeft = 160867
+                        mmTop = 3175
+                        mmWidth = 34925
                         BandType = 4
                         LayerName = Foreground25
                       end
@@ -8851,7 +8851,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 11642
-                        mmLeft = 157692
+                        mmLeft = 160872
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -8963,9 +8963,9 @@ object Report: TppReport
                       object ppShape14: TppShape
                         UserName = 'Shape202'
                         mmHeight = 11642
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 4
                         LayerName = Foreground26
                       end
@@ -8979,8 +8979,8 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 22225
-                        mmTop = 3440
+                        mmLeft = 16140
+                        mmTop = 3175
                         mmWidth = 23961
                         BandType = 4
                         LayerName = Foreground26
@@ -8996,9 +8996,9 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 130229
-                        mmTop = 3440
-                        mmWidth = 23029
+                        mmLeft = 124884
+                        mmTop = 3175
+                        mmWidth = 35983
                         BandType = 4
                         LayerName = Foreground26
                       end
@@ -9013,9 +9013,9 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 161534
-                        mmTop = 3440
-                        mmWidth = 24299
+                        mmLeft = 160867
+                        mmTop = 3175
+                        mmWidth = 34925
                         BandType = 4
                         LayerName = Foreground26
                       end
@@ -9035,7 +9035,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 11642
-                        mmLeft = 157692
+                        mmLeft = 160872
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -9146,9 +9146,9 @@ object Report: TppReport
                       object ppShape16: TppShape
                         UserName = 'Shape203'
                         mmHeight = 11642
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 4
                         LayerName = Foreground27
                       end
@@ -9162,8 +9162,8 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 22225
-                        mmTop = 3440
+                        mmLeft = 16140
+                        mmTop = 3175
                         mmWidth = 23961
                         BandType = 4
                         LayerName = Foreground27
@@ -9179,9 +9179,9 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4762
-                        mmLeft = 140494
-                        mmTop = 3440
-                        mmWidth = 2646
+                        mmLeft = 124884
+                        mmTop = 3175
+                        mmWidth = 35983
                         BandType = 4
                         LayerName = Foreground27
                       end
@@ -9196,9 +9196,9 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 161534
-                        mmTop = 3440
-                        mmWidth = 24299
+                        mmLeft = 160867
+                        mmTop = 3175
+                        mmWidth = 34925
                         BandType = 4
                         LayerName = Foreground27
                       end
@@ -9218,7 +9218,7 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 11642
-                        mmLeft = 157692
+                        mmLeft = 160872
                         mmTop = 0
                         mmWidth = 2117
                         BandType = 4
@@ -9308,7 +9308,7 @@ object Report: TppReport
                     object ppTitleBand10: TppTitleBand
                       Background.Brush.Style = bsClear
                       mmBottomOffset = 0
-                      mmHeight = 16933
+                      mmHeight = 17727
                       mmPrintPosition = 0
                       object ppLabel112: TppLabel
                         UserName = 'LaBesLL'
@@ -9320,8 +9320,8 @@ object Report: TppReport
                         Font.Style = [fsBold]
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 15081
-                        mmTop = 5820
+                        mmLeft = 14286
+                        mmTop = 5555
                         mmWidth = 37931
                         BandType = 1
                         LayerName = Foreground29
@@ -9330,9 +9330,9 @@ object Report: TppReport
                         UserName = 'Line94'
                         Weight = 0.750000000000000000
                         mmHeight = 2117
-                        mmLeft = 20108
-                        mmTop = 10583
-                        mmWidth = 169598
+                        mmLeft = 14288
+                        mmTop = 11378
+                        mmWidth = 181505
                         BandType = 1
                         LayerName = Foreground29
                       end
@@ -9344,11 +9344,12 @@ object Report: TppReport
                         Font.Name = 'Calibri'
                         Font.Size = 11
                         Font.Style = []
+                        TextAlignment = taCentered
                         Transparent = True
-                        mmHeight = 4784
-                        mmLeft = 21399
-                        mmTop = 11642
-                        mmWidth = 42926
+                        mmHeight = 4762
+                        mmLeft = 14288
+                        mmTop = 12172
+                        mmWidth = 51594
                         BandType = 1
                         LayerName = Foreground29
                       end
@@ -9364,7 +9365,7 @@ object Report: TppReport
                         Transparent = True
                         mmHeight = 4784
                         mmLeft = 113225
-                        mmTop = 11642
+                        mmTop = 12172
                         mmWidth = 10880
                         BandType = 1
                         LayerName = Foreground29
@@ -9381,9 +9382,9 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 172509
-                        mmTop = 11642
-                        mmWidth = 16933
+                        mmLeft = 171450
+                        mmTop = 12172
+                        mmWidth = 24342
                         BandType = 1
                         LayerName = Foreground29
                       end
@@ -9393,7 +9394,7 @@ object Report: TppReport
                         Weight = 0.750000000000000000
                         mmHeight = 6350
                         mmLeft = 171450
-                        mmTop = 10583
+                        mmTop = 11377
                         mmWidth = 2117
                         BandType = 1
                         LayerName = Foreground29
@@ -9404,7 +9405,7 @@ object Report: TppReport
                         Weight = 0.750000000000000000
                         mmHeight = 6350
                         mmLeft = 65881
-                        mmTop = 10583
+                        mmTop = 11377
                         mmWidth = 2117
                         BandType = 1
                         LayerName = Foreground29
@@ -9414,8 +9415,8 @@ object Report: TppReport
                         Position = lpLeft
                         Weight = 0.750000000000000000
                         mmHeight = 6350
-                        mmLeft = 20108
-                        mmTop = 10583
+                        mmLeft = 14288
+                        mmTop = 11377
                         mmWidth = 2117
                         BandType = 1
                         LayerName = Foreground29
@@ -9425,8 +9426,8 @@ object Report: TppReport
                         Position = lpRight
                         Weight = 0.750000000000000000
                         mmHeight = 6350
-                        mmLeft = 187590
-                        mmTop = 10583
+                        mmLeft = 193675
+                        mmTop = 11377
                         mmWidth = 2117
                         BandType = 1
                         LayerName = Foreground29
@@ -9441,8 +9442,8 @@ object Report: TppReport
                         Font.Style = [fsBold]
                         Transparent = True
                         mmHeight = 2582
-                        mmLeft = 55033
-                        mmTop = 5292
+                        mmLeft = 54238
+                        mmTop = 5027
                         mmWidth = 1736
                         BandType = 1
                         LayerName = Foreground29
@@ -9459,9 +9460,9 @@ object Report: TppReport
                         UserName = 'Shape2'
                         StretchWithParent = True
                         mmHeight = 6615
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 4
                         LayerName = Foreground29
                       end
@@ -9478,10 +9479,10 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         DataPipelineName = 'plAbi'
-                        mmHeight = 4784
-                        mmLeft = 174096
-                        mmTop = 1058
-                        mmWidth = 13229
+                        mmHeight = 4498
+                        mmLeft = 171450
+                        mmTop = 793
+                        mmWidth = 24342
                         BandType = 4
                         LayerName = Foreground29
                       end
@@ -9523,9 +9524,9 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4498
-                        mmLeft = 65881
-                        mmTop = 1058
-                        mmWidth = 105569
+                        mmLeft = 66941
+                        mmTop = 793
+                        mmWidth = 104509
                         BandType = 4
                         LayerName = Foreground29
                         mmBottomOffset = 0
@@ -9548,9 +9549,9 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4498
-                        mmLeft = 21431
-                        mmTop = 1058
-                        mmWidth = 42863
+                        mmLeft = 14288
+                        mmTop = 793
+                        mmWidth = 51594
                         BandType = 4
                         LayerName = Foreground29
                         mmBottomOffset = 0
@@ -9569,9 +9570,9 @@ object Report: TppReport
                       object ppShape7: TppShape
                         UserName = 'Shape7'
                         mmHeight = 6615
-                        mmLeft = 20108
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 169598
+                        mmWidth = 181505
                         BandType = 7
                         LayerName = Foreground29
                       end
@@ -9586,9 +9587,9 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 41084
-                        mmTop = 1058
-                        mmWidth = 3556
+                        mmLeft = 14288
+                        mmTop = 793
+                        mmWidth = 51594
                         BandType = 7
                         LayerName = Foreground29
                       end
@@ -9625,9 +9626,9 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 179430
-                        mmTop = 1058
-                        mmWidth = 2371
+                        mmLeft = 171450
+                        mmTop = 793
+                        mmWidth = 24342
                         BandType = 7
                         LayerName = Foreground29
                       end
@@ -9643,7 +9644,7 @@ object Report: TppReport
                         Transparent = True
                         mmHeight = 4784
                         mmLeft = 111003
-                        mmTop = 1058
+                        mmTop = 793
                         mmWidth = 15325
                         BandType = 7
                         LayerName = Foreground29
@@ -9769,7 +9770,7 @@ object Report: TppReport
                         UserName = 'Shape1'
                         Brush.Color = clSilver
                         mmHeight = 13229
-                        mmLeft = 119327
+                        mmLeft = 119062
                         mmTop = 33867
                         mmWidth = 13229
                         BandType = 4
@@ -9779,7 +9780,7 @@ object Report: TppReport
                         UserName = 'Shape5'
                         Brush.Color = clSilver
                         mmHeight = 13229
-                        mmLeft = 119327
+                        mmLeft = 119062
                         mmTop = 101865
                         mmWidth = 13229
                         BandType = 4
@@ -9787,17 +9788,17 @@ object Report: TppReport
                       end
                       object ppLabel89: TppLabel
                         UserName = 'LaBerechnung'
-                        Caption = ' Berechnungen der Gesamtqualifikation und der Durchschnittsnote'
+                        Caption = 'Berechnungen der Gesamtqualifikation und der Durchschnittsnote'
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clBlack
                         Font.Name = 'Calibri'
                         Font.Size = 11
                         Font.Style = [fsBold]
                         Transparent = True
-                        mmHeight = 4784
-                        mmLeft = 15346
+                        mmHeight = 4763
+                        mmLeft = 14288
                         mmTop = 0
-                        mmWidth = 107739
+                        mmWidth = 108743
                         BandType = 4
                         LayerName = Foreground28
                       end
@@ -9811,7 +9812,7 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 20373
+                        mmLeft = 14278
                         mmTop = 12170
                         mmWidth = 70824
                         BandType = 4
@@ -9827,8 +9828,8 @@ object Report: TppReport
                         Font.Style = [fsBold]
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 20373
-                        mmTop = 85196
+                        mmLeft = 14278
+                        mmTop = 84666
                         mmWidth = 29379
                         BandType = 4
                         LayerName = Foreground28
@@ -9837,7 +9838,7 @@ object Report: TppReport
                         UserName = 'Shape3'
                         Brush.Color = clSilver
                         mmHeight = 13229
-                        mmLeft = 119327
+                        mmLeft = 119062
                         mmTop = 59531
                         mmWidth = 13229
                         BandType = 4
@@ -9847,7 +9848,7 @@ object Report: TppReport
                         UserName = 'Shape4'
                         Brush.Color = clSilver
                         mmHeight = 13229
-                        mmLeft = 119327
+                        mmLeft = 119062
                         mmTop = 80698
                         mmWidth = 13229
                         BandType = 4
@@ -9867,8 +9868,8 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbi'
                         mmHeight = 4784
-                        mmLeft = 119327
-                        mmTop = 85196
+                        mmLeft = 119062
+                        mmTop = 84666
                         mmWidth = 13229
                         BandType = 4
                         LayerName = Foreground28
@@ -9883,7 +9884,7 @@ object Report: TppReport
                         Font.Style = [fsBold]
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 20373
+                        mmLeft = 14278
                         mmTop = 106363
                         mmWidth = 30522
                         BandType = 4
@@ -9903,7 +9904,7 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbi'
                         mmHeight = 4784
-                        mmLeft = 119327
+                        mmLeft = 119062
                         mmTop = 106363
                         mmWidth = 13229
                         BandType = 4
@@ -9912,10 +9913,10 @@ object Report: TppReport
                       object ppShape6: TppShape
                         UserName = 'Shape6'
                         Brush.Color = clSilver
-                        mmHeight = 13208
-                        mmLeft = 135732
+                        mmHeight = 13229
+                        mmLeft = 137584
                         mmTop = 101865
-                        mmWidth = 53975
+                        mmWidth = 58215
                         BandType = 4
                         LayerName = Foreground28
                       end
@@ -9930,10 +9931,10 @@ object Report: TppReport
                         Font.Style = []
                         TextAlignment = taCentered
                         Transparent = True
-                        mmHeight = 4784
-                        mmLeft = 135732
+                        mmHeight = 4763
+                        mmLeft = 137584
                         mmTop = 106363
-                        mmWidth = 53975
+                        mmWidth = 58208
                         BandType = 4
                         LayerName = Foreground28
                       end
@@ -9951,7 +9952,7 @@ object Report: TppReport
                         Transparent = True
                         WordWrap = True
                         mmHeight = 14817
-                        mmLeft = 20373
+                        mmLeft = 14278
                         mmTop = 58738
                         mmWidth = 96309
                         BandType = 4
@@ -9969,7 +9970,7 @@ object Report: TppReport
                         Transparent = True
                         WordWrap = True
                         mmHeight = 10583
-                        mmLeft = 137848
+                        mmLeft = 137583
                         mmTop = 35190
                         mmWidth = 43921
                         BandType = 4
@@ -9987,7 +9988,7 @@ object Report: TppReport
                         Transparent = True
                         WordWrap = True
                         mmHeight = 10583
-                        mmLeft = 137848
+                        mmLeft = 137583
                         mmTop = 60854
                         mmWidth = 43392
                         BandType = 4
@@ -10005,7 +10006,7 @@ object Report: TppReport
                         Transparent = True
                         WordWrap = True
                         mmHeight = 10583
-                        mmLeft = 137848
+                        mmLeft = 137583
                         mmTop = 82021
                         mmWidth = 43392
                         BandType = 4
@@ -10021,7 +10022,7 @@ object Report: TppReport
                         Font.Style = [fsBold]
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 20373
+                        mmLeft = 14278
                         mmTop = 6879
                         mmWidth = 11769
                         BandType = 4
@@ -10038,7 +10039,7 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 2582
-                        mmLeft = 93660
+                        mmLeft = 87565
                         mmTop = 11642
                         mmWidth = 1588
                         BandType = 4
@@ -10054,7 +10055,7 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 20373
+                        mmLeft = 14278
                         mmTop = 32808
                         mmWidth = 75438
                         BandType = 4
@@ -10074,7 +10075,7 @@ object Report: TppReport
                         Transparent = True
                         WordWrap = True
                         mmHeight = 10583
-                        mmLeft = 20373
+                        mmLeft = 14278
                         mmTop = 37835
                         mmWidth = 88900
                         BandType = 4
@@ -10090,7 +10091,7 @@ object Report: TppReport
                         Font.Style = [fsBold]
                         Transparent = True
                         mmHeight = 4784
-                        mmLeft = 20373
+                        mmLeft = 14278
                         mmTop = 53975
                         mmWidth = 12827
                         BandType = 4
@@ -10109,7 +10110,7 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbi'
                         mmHeight = 4784
-                        mmLeft = 119327
+                        mmLeft = 119062
                         mmTop = 38365
                         mmWidth = 13229
                         BandType = 4
@@ -10128,7 +10129,7 @@ object Report: TppReport
                         Transparent = True
                         DataPipelineName = 'plAbi'
                         mmHeight = 4784
-                        mmLeft = 119327
+                        mmLeft = 119062
                         mmTop = 64029
                         mmWidth = 13229
                         BandType = 4
@@ -10139,7 +10140,7 @@ object Report: TppReport
                         Caption = 'Region1'
                         Pen.Style = psClear
                         mmHeight = 11113
-                        mmLeft = 49742
+                        mmLeft = 43647
                         mmTop = 19050
                         mmWidth = 21167
                         BandType = 4
@@ -10158,7 +10159,7 @@ object Report: TppReport
                           Font.Style = [fsItalic]
                           Transparent = True
                           mmHeight = 4784
-                          mmLeft = 52388
+                          mmLeft = 46293
                           mmTop = 22225
                           mmWidth = 5630
                           BandType = 4
@@ -10174,7 +10175,7 @@ object Report: TppReport
                           Font.Style = [fsItalic]
                           Transparent = True
                           mmHeight = 4784
-                          mmLeft = 59531
+                          mmLeft = 53436
                           mmTop = 19579
                           mmWidth = 2032
                           BandType = 4
@@ -10190,7 +10191,7 @@ object Report: TppReport
                           Font.Style = [fsItalic]
                           Transparent = True
                           mmHeight = 4784
-                          mmLeft = 59531
+                          mmLeft = 53436
                           mmTop = 24871
                           mmWidth = 1778
                           BandType = 4
@@ -10206,7 +10207,7 @@ object Report: TppReport
                           Font.Style = [fsItalic]
                           Transparent = True
                           mmHeight = 4784
-                          mmLeft = 63236
+                          mmLeft = 57141
                           mmTop = 21167
                           mmWidth = 974
                           BandType = 4
@@ -10222,7 +10223,7 @@ object Report: TppReport
                           Font.Style = []
                           Transparent = True
                           mmHeight = 4784
-                          mmLeft = 64823
+                          mmLeft = 58728
                           mmTop = 22225
                           mmWidth = 3979
                           BandType = 4
@@ -10232,7 +10233,7 @@ object Report: TppReport
                           UserName = 'Line1'
                           Weight = 0.750000000000000000
                           mmHeight = 2117
-                          mmLeft = 59267
+                          mmLeft = 53172
                           mmTop = 24342
                           mmWidth = 2381
                           BandType = 4
@@ -10250,7 +10251,7 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 2646
-                        mmLeft = 33860
+                        mmLeft = 27765
                         mmTop = 53446
                         mmWidth = 1588
                         BandType = 4
@@ -10267,7 +10268,7 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 2646
-                        mmLeft = 32804
+                        mmLeft = 26709
                         mmTop = 6350
                         mmWidth = 1587
                         BandType = 4
@@ -10333,8 +10334,8 @@ object Report: TppReport
                   TraverseAllData = False
                   mmHeight = 6352
                   mmLeft = 10070
-                  mmTop = 209545
-                  mmWidth = 169323
+                  mmTop = 208750
+                  mmWidth = 189971
                   BandType = 4
                   LayerName = Foreground6
                   mmBottomOffset = 0
@@ -10355,7 +10356,6 @@ object Report: TppReport
                     PrinterSetup.mmPaperHeight = 297000
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
-                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
