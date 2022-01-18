@@ -9647,15 +9647,14 @@ object Report: TppReport
                         RichText = 
                           '{\rtf1\ansi\ansicpg1252\deff0\deflang1031{\fonttbl{\f0\fnil\fcha' +
                           'rset0 Calibri;}{\f1\fnil Calibri;}}'#13#10'\viewkind4\uc1\pard\b\f0\fs' +
-                          '22 Rechtsbehelfsbelehrung:\b0  Gegen die Entscheidung, die Sch\'#39 +
-                          'fclerin oder den Sch\'#39'fcler nicht zu versetzen oder einen erreic' +
-                          'hbaren Abschluss oder eine Berechtigung nicht zu vergeben, kann ' +
-                          'innerhalb eines Monats nach Bekanntgabe des Zeugnisses Widerspru' +
-                          'ch erhoben werden. Der Widerspruch ist bei der Schule (<Bezeichn' +
-                          'ung1>, <Strasse>, <PLZ> <Ort>) schriftlich oder zur Niederschrif' +
-                          't zu erheben.\f1\fs16\par'#13#10'\pard\nowidctlpar\qr S\f0 chulnummer\' +
-                          'f1 : <SchulNr>, S\f0 chulform:\f1  <SchulformKrz>\par'#13#10'\pard\par' +
-                          #13#10'}'#13#10#0
+                          '22 Rechtsbehelfsbelehrung:\b0  Gegen die Kursabschlussnote des l' +
+                          'etzten Halbjahres oder die Entscheidung einen erreichbaren Absch' +
+                          'luss oder eine Berechtigung nicht zu vergeben kann innerhalb ein' +
+                          'es Monats nach Bekanntgabe des Zeugnisses Widerspruch erhoben we' +
+                          'rden. Der Widerspruch ist bei der Schule (<Bezeichnung1>, <Stras' +
+                          'se>, <PLZ> <Ort>) schriftlich oder zur Niederschrift zu erheben.' +
+                          '\f1\fs16\par'#13#10'\pard\nowidctlpar\qr S\f0 chulnummer\f1 : <SchulNr' +
+                          '>, S\f0 chulform:\f1  <SchulformKrz>\par'#13#10'\pard\par'#13#10'}'#13#10#0
                         RemoveEmptyLines = False
                         Stretch = True
                         Transparent = True

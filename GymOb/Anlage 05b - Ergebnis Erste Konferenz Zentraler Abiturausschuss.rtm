@@ -4379,6 +4379,7 @@ object Report: TppReport
         'richen werden.\f0\par'#13#10'}'#13#10#0
       RemoveEmptyLines = False
       ShiftRelativeTo = ppSubReport5
+      Stretch = True
       Transparent = True
       mmHeight = 21582
       mmLeft = 12700
@@ -4598,7 +4599,7 @@ object Report: TppReport
     object ppLabel24: TppLabel
       UserName = 'LaDurchschnittPkte2'
       AutoSize = False
-      Caption = 'punkt- schnitts-'
+      Caption = 'punkt-'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
       Font.Name = 'Calibri'
@@ -4617,7 +4618,7 @@ object Report: TppReport
     object ppLabel57: TppLabel
       UserName = 'LaDurchschnittPkte3'
       AutoSize = False
-      Caption = 'zahl schnitts-'
+      Caption = 'zahl'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
       Font.Name = 'Calibri'
