@@ -324,7 +324,7 @@ object Report: TppReport
                       end
                       object ppLabel22: TppLabel
                         UserName = 'Label22'
-                        Caption = '9)'
+                        Caption = '8)'
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clBlack
                         Font.Name = 'Calibri'
@@ -714,7 +714,7 @@ object Report: TppReport
                       end
                       object ppLabel79: TppLabel
                         UserName = 'La4'
-                        Caption = '10)'
+                        Caption = '9)'
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clBlack
                         Font.Name = 'Calibri'
@@ -723,8 +723,8 @@ object Report: TppReport
                         Transparent = True
                         mmHeight = 2646
                         mmLeft = 66411
-                        mmTop = 5293
-                        mmWidth = 2646
+                        mmTop = 5292
+                        mmWidth = 1587
                         BandType = 7
                         LayerName = PageLayer12
                       end
@@ -835,7 +835,7 @@ object Report: TppReport
                       end
                       object ppLabel91: TppLabel
                         UserName = 'La11'
-                        Caption = '11)'
+                        Caption = '10)'
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clBlack
                         Font.Name = 'Calibri'
@@ -843,9 +843,9 @@ object Report: TppReport
                         Font.Style = []
                         Transparent = True
                         mmHeight = 2646
-                        mmLeft = 24053
+                        mmLeft = 24077
                         mmTop = 0
-                        mmWidth = 2645
+                        mmWidth = 2646
                         BandType = 1
                         LayerName = Foreground7
                       end
@@ -1133,7 +1133,7 @@ object Report: TppReport
                         Font.Size = 8
                         Font.Style = []
                         Lines.Strings = (
-                          '9)')
+                          '8)')
                         RemoveEmptyLines = False
                         Stretch = True
                         TextAlignment = taRightJustified
@@ -1194,7 +1194,7 @@ object Report: TppReport
                         Font.Size = 8
                         Font.Style = []
                         Lines.Strings = (
-                          '10)')
+                          '9)')
                         RemoveEmptyLines = False
                         TextAlignment = taRightJustified
                         Transparent = True
@@ -1259,7 +1259,7 @@ object Report: TppReport
                         Font.Size = 8
                         Font.Style = []
                         Lines.Strings = (
-                          '11)')
+                          '10)')
                         RemoveEmptyLines = False
                         TextAlignment = taRightJustified
                         Transparent = True
@@ -5367,22 +5367,6 @@ object Report: TppReport
                         BandType = 1
                         LayerName = PageLayer8
                       end
-                      object ppLabel3: TppLabel
-                        UserName = 'La4'
-                        Caption = '4)'
-                        Font.Charset = DEFAULT_CHARSET
-                        Font.Color = clBlack
-                        Font.Name = 'Calibri'
-                        Font.Size = 6
-                        Font.Style = []
-                        Transparent = True
-                        mmHeight = 2582
-                        mmLeft = 47086
-                        mmTop = 0
-                        mmWidth = 1693
-                        BandType = 1
-                        LayerName = PageLayer8
-                      end
                       object ppLine2: TppLine
                         UserName = 'Line81'
                         ParentHeight = True
@@ -8124,58 +8108,58 @@ object Report: TppReport
                             end
                           end
                         end
-                        object ppTableColumn19: TppTableColumn
+                        object ppTableColumn1: TppTableColumn
                           mmWidth = 10319
                         end
-                        object ppTableColumn20: TppTableColumn
+                        object ppTableColumn2: TppTableColumn
                           mmWidth = 22225
                         end
-                        object ppTableColumn21: TppTableColumn
+                        object ppTableColumn3: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn22: TppTableColumn
+                        object ppTableColumn4: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn23: TppTableColumn
+                        object ppTableColumn5: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn24: TppTableColumn
+                        object ppTableColumn6: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn25: TppTableColumn
+                        object ppTableColumn7: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn26: TppTableColumn
+                        object ppTableColumn8: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn27: TppTableColumn
+                        object ppTableColumn9: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn28: TppTableColumn
+                        object ppTableColumn10: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn29: TppTableColumn
+                        object ppTableColumn11: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn30: TppTableColumn
+                        object ppTableColumn12: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn31: TppTableColumn
+                        object ppTableColumn13: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn32: TppTableColumn
+                        object ppTableColumn14: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn33: TppTableColumn
+                        object ppTableColumn15: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn34: TppTableColumn
+                        object ppTableColumn16: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn35: TppTableColumn
+                        object ppTableColumn17: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn36: TppTableColumn
+                        object ppTableColumn18: TppTableColumn
                           mmWidth = 22225
                         end
                       end
@@ -8210,7 +8194,7 @@ object Report: TppReport
                       Background.Brush.Style = bsClear
                       PrintHeight = phDynamic
                       mmBottomOffset = 0
-                      mmHeight = 16404
+                      mmHeight = 12700
                       mmPrintPosition = 0
                       object ppMemo7: TppMemo
                         UserName = 'Memo_FN_Seite2_Nr2'
@@ -8224,12 +8208,11 @@ object Report: TppReport
                         Lines.Strings = (
                           ''
                           ''
-                          '3)'
-                          '4)')
+                          '3)')
                         RemoveEmptyLines = False
                         TextAlignment = taRightJustified
                         Transparent = True
-                        mmHeight = 16356
+                        mmHeight = 12700
                         mmLeft = 513
                         mmTop = 0
                         mmWidth = 4693
@@ -8258,14 +8241,13 @@ object Report: TppReport
                           'zweistellig angegeben.'
                           
                             'Wird der Projektkurs als besondere Lernleistung eingebracht, wir' +
-                            'd hier nur die Belegung ausgewiesen.'
-                          'Bemerkungen gem'#228#223' Nr. 13.1 VVzAPO-GOSt: teilgenommen.')
+                            'd hier nur die Belegung ausgewiesen.')
                         RemoveEmptyLines = False
                         Stretch = True
                         Transparent = True
-                        mmHeight = 15863
+                        mmHeight = 12171
                         mmLeft = 5805
-                        mmTop = 530
+                        mmTop = 529
                         mmWidth = 181012
                         BandType = 7
                         LayerName = PageLayer6
@@ -8525,17 +8507,17 @@ object Report: TppReport
                 end
                 object ppLabel131: TppLabel
                   UserName = 'La5'
-                  Caption = '5)'
+                  Caption = '4)'
                   Font.Charset = DEFAULT_CHARSET
                   Font.Color = clBlack
                   Font.Name = 'Calibri'
                   Font.Size = 6
                   Font.Style = []
                   Transparent = True
-                  mmHeight = 2582
-                  mmLeft = 37284
-                  mmTop = 24079
-                  mmWidth = 1693
+                  mmHeight = 2646
+                  mmLeft = 37306
+                  mmTop = 24077
+                  mmWidth = 1588
                   BandType = 1
                   LayerName = Foreground6
                 end
@@ -9434,17 +9416,17 @@ object Report: TppReport
                       end
                       object ppLabel1: TppLabel
                         UserName = 'La6'
-                        Caption = '6)'
+                        Caption = '5)'
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clBlack
                         Font.Name = 'Calibri'
                         Font.Size = 6
                         Font.Style = [fsBold]
                         Transparent = True
-                        mmHeight = 2582
-                        mmLeft = 54238
+                        mmHeight = 2646
+                        mmLeft = 54240
                         mmTop = 5027
-                        mmWidth = 1736
+                        mmWidth = 1852
                         BandType = 1
                         LayerName = Foreground29
                       end
@@ -10028,23 +10010,6 @@ object Report: TppReport
                         BandType = 4
                         LayerName = Foreground28
                       end
-                      object ppLabel109: TppLabel
-                        UserName = 'La7'
-                        Caption = '7)'
-                        Font.Charset = DEFAULT_CHARSET
-                        Font.Color = clBlack
-                        Font.Name = 'Calibri'
-                        Font.Size = 6
-                        Font.Style = []
-                        TextAlignment = taCentered
-                        Transparent = True
-                        mmHeight = 2582
-                        mmLeft = 87565
-                        mmTop = 11642
-                        mmWidth = 1588
-                        BandType = 4
-                        LayerName = Foreground28
-                      end
                       object ppLabel137: TppLabel
                         UserName = 'LaPunkte'
                         Caption = 'P: erzielte Punkte in den eingebrachten F'#228'chern'
@@ -10242,7 +10207,7 @@ object Report: TppReport
                       end
                       object ppLabel10: TppLabel
                         UserName = 'La8II'
-                        Caption = '8)'
+                        Caption = '7)'
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clBlack
                         Font.Name = 'Calibri'
@@ -10251,7 +10216,7 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 2646
-                        mmLeft = 27765
+                        mmLeft = 27781
                         mmTop = 53446
                         mmWidth = 1588
                         BandType = 4
@@ -10259,7 +10224,7 @@ object Report: TppReport
                       end
                       object ppLabel9: TppLabel
                         UserName = 'La8I'
-                        Caption = '8)'
+                        Caption = '6)'
                         Font.Charset = DEFAULT_CHARSET
                         Font.Color = clBlack
                         Font.Name = 'Calibri'
@@ -10268,7 +10233,7 @@ object Report: TppReport
                         TextAlignment = taCentered
                         Transparent = True
                         mmHeight = 2646
-                        mmLeft = 26709
+                        mmLeft = 26723
                         mmTop = 6350
                         mmWidth = 1587
                         BandType = 4
@@ -10389,11 +10354,11 @@ object Report: TppReport
                             'Oberstufe in der Sekundarstufe II", Beschluss der Kultusminister' +
                             'konferenz vom 7. Juli 1972 in der jeweils geltenden Fassung).'
                           
-                            'Die Ergebnisse in den Leistungskursf'#228'chern werden doppelt gewich' +
-                            'tet.'
-                          
                             'Bei der Bildung des Gesamtergebnisses wird auf eine ganzzahlige ' +
-                            'Punktzahl gerundet; dabei wird ab der Dezimalen 5 aufgerundet.')
+                            'Punktzahl gerundet; dabei wird ab der Dezimalen 5 aufgerundet.'
+                          
+                            'Wird zus'#228'tzlich eine besondere Lernleistung eingebracht, werden ' +
+                            'die Pr'#252'fungsf'#228'cher nur 4-fach gewertet.')
                         RemoveEmptyLines = False
                         Stretch = True
                         Transparent = True
@@ -10419,12 +10384,12 @@ object Report: TppReport
                         Font.Size = 8
                         Font.Style = []
                         Lines.Strings = (
+                          '4)'
+                          ''
                           '5)'
                           ''
                           '6)'
-                          ''
-                          '7)'
-                          '8)')
+                          '7)')
                         RemoveEmptyLines = False
                         TextAlignment = taRightJustified
                         Transparent = True
