@@ -703,6 +703,7 @@ object Report: TppReport
         PrinterSetup.mmPaperWidth = 420000
         PrinterSetup.PaperSize = 8
         Template.DatabaseSettings.Name = 'Sub_Doppelseite'
+        Template.Offset = 284
         Template.Format = ftASCII
         Units = utScreenPixels
         Version = '15.05'
@@ -747,6 +748,7 @@ object Report: TppReport
               PrinterSetup.mmPaperWidth = 210000
               PrinterSetup.PaperSize = 9
               Template.DatabaseSettings.Name = 'Sub_Seite2'
+              Template.Offset = 284
               Template.Format = ftASCII
               Units = utScreenPixels
               Version = '15.05'
@@ -5461,7 +5463,6 @@ object Report: TppReport
                     PrinterSetup.mmPaperHeight = 297000
                     PrinterSetup.mmPaperWidth = 210000
                     PrinterSetup.PaperSize = 9
-                    Template.Offset = 284
                     Template.Format = ftASCII
                     Units = utScreenPixels
                     Version = '15.05'
@@ -5470,70 +5471,17 @@ object Report: TppReport
                       Background.Brush.Style = bsClear
                       PrintHeight = phDynamic
                       mmBottomOffset = 0
-                      mmHeight = 5027
+                      mmHeight = 529
                       mmPrintPosition = 0
                       object ppLine3: TppLine
                         UserName = 'Line83'
                         Weight = 0.750000000000000000
-                        mmHeight = 2117
+                        mmHeight = 529
                         mmLeft = 0
                         mmTop = 0
                         mmWidth = 36777
                         BandType = 1
                         LayerName = PageLayer18
-                      end
-                      object ppMemo15: TppMemo
-                        UserName = 'Memo_FN_Seite2_Nr1'
-                        Caption = 'Memo_FN_Seite2_Nr1'
-                        CharWrap = False
-                        Font.Charset = DEFAULT_CHARSET
-                        Font.Color = clBlack
-                        Font.Name = 'Calibri'
-                        Font.Size = 8
-                        Font.Style = []
-                        Lines.Strings = (
-                          '1)')
-                        RemoveEmptyLines = False
-                        Stretch = True
-                        Transparent = True
-                        mmHeight = 4166
-                        mmLeft = 1043
-                        mmTop = 530
-                        mmWidth = 4958
-                        BandType = 1
-                        LayerName = PageLayer18
-                        mmBottomOffset = 0
-                        mmOverFlowOffset = 0
-                        mmStopPosition = 0
-                        mmMinHeight = 0
-                        mmLeading = 0
-                      end
-                      object ppMemo16: TppMemo
-                        UserName = 'Memo_FN_Seite2_Text1'
-                        Caption = 'Memo_FN_Seite2_Text1'
-                        CharWrap = False
-                        Font.Charset = DEFAULT_CHARSET
-                        Font.Color = clBlack
-                        Font.Name = 'Calibri'
-                        Font.Size = 8
-                        Font.Style = []
-                        Lines.Strings = (
-                          
-                            'Das erste und zweite Abiturpr'#252'fungsfach werden auf erh'#246'htem Anfo' +
-                            'rderungsniveau unterrichtet.')
-                        RemoveEmptyLines = False
-                        Transparent = True
-                        mmHeight = 3938
-                        mmLeft = 4233
-                        mmTop = 1058
-                        mmWidth = 181505
-                        BandType = 1
-                        LayerName = PageLayer18
-                        mmBottomOffset = 0
-                        mmOverFlowOffset = 0
-                        mmStopPosition = 0
-                        mmMinHeight = 0
-                        mmLeading = 0
                       end
                     end
                     object ppDetailBand24: TppDetailBand
@@ -7816,58 +7764,58 @@ object Report: TppReport
                             end
                           end
                         end
-                        object ppTableColumn19: TppTableColumn
+                        object ppTableColumn1: TppTableColumn
                           mmWidth = 10319
                         end
-                        object ppTableColumn20: TppTableColumn
+                        object ppTableColumn2: TppTableColumn
                           mmWidth = 22225
                         end
-                        object ppTableColumn21: TppTableColumn
+                        object ppTableColumn3: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn22: TppTableColumn
+                        object ppTableColumn4: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn23: TppTableColumn
+                        object ppTableColumn5: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn24: TppTableColumn
+                        object ppTableColumn6: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn25: TppTableColumn
+                        object ppTableColumn7: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn26: TppTableColumn
+                        object ppTableColumn8: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn27: TppTableColumn
+                        object ppTableColumn9: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn28: TppTableColumn
+                        object ppTableColumn10: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn29: TppTableColumn
+                        object ppTableColumn11: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn30: TppTableColumn
+                        object ppTableColumn12: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn31: TppTableColumn
+                        object ppTableColumn13: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn32: TppTableColumn
+                        object ppTableColumn14: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn33: TppTableColumn
+                        object ppTableColumn15: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn34: TppTableColumn
+                        object ppTableColumn16: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn35: TppTableColumn
+                        object ppTableColumn17: TppTableColumn
                           mmWidth = 7408
                         end
-                        object ppTableColumn36: TppTableColumn
+                        object ppTableColumn18: TppTableColumn
                           mmWidth = 22225
                         end
                       end
@@ -7881,7 +7829,7 @@ object Report: TppReport
                         Font.Size = 8
                         Font.Style = []
                         Lines.Strings = (
-                          '2)')
+                          '1)')
                         RemoveEmptyLines = False
                         Transparent = True
                         mmHeight = 4961
@@ -7919,7 +7867,7 @@ object Report: TppReport
                       Background.Brush.Style = bsClear
                       PrintHeight = phDynamic
                       mmBottomOffset = 0
-                      mmHeight = 15875
+                      mmHeight = 20373
                       mmPrintPosition = 0
                       object ppMemo18: TppMemo
                         UserName = 'Memo_FN_Seite2_Nr2'
@@ -7933,6 +7881,7 @@ object Report: TppReport
                         Lines.Strings = (
                           ''
                           ''
+                          '2)'
                           '3)')
                         RemoveEmptyLines = False
                         Transparent = True
@@ -7963,14 +7912,16 @@ object Report: TppReport
                           ' ausreichende Leistungen k\'#39'f6nnen dazu f\'#39'fchren, dass die notw' +
                           'endigen Punktzahlen gem\'#39'e4\'#39'df \'#39'a7\'#39'a7 19, 28 bis 31, 39 nicht' +
                           ' erreicht werden. Punktzahlen werden in einfacher Wertung und st' +
-                          'ets zweistellig angegeben.\f1\par'#13#10'\fs4\par'#13#10'\f0\fs16 Die Kursab' +
-                          'schlussnote wird f\'#39'fcr die beiden belegten Halbjahre in einfach' +
-                          'er Wertung ausgewiesen. Bei nicht abgeschlossenem Projektkurs wi' +
-                          'rd das erste belegte Halbjahr angekreuzt.\f1\par'#13#10'}'#13#10#0
+                          'ets zweistellig angegeben.\f1\par'#13#10'\fs2\par'#13#10'\f0\fs16 L bedeutet' +
+                          ' Leistungskurs, G bedeutet Grundkurs.\f1\fs2\par'#13#10'\f0\fs16 Die K' +
+                          'ursabschlussnote wird f\'#39'fcr die beiden belegten Halbjahre in ei' +
+                          'nfacher Wertung ausgewiesen. Bei nicht abgeschlossenem Projektku' +
+                          'rs wird das erste belegte Halbjahr angekreuzt.\f1\par'#13#10'\par'#13#10'}'#13#10 +
+                          #0
                         RemoveEmptyLines = False
                         Stretch = True
                         Transparent = True
-                        mmHeight = 15610
+                        mmHeight = 20373
                         mmLeft = 4233
                         mmTop = 0
                         mmWidth = 181505
