@@ -2501,7 +2501,7 @@ object Report: TppReport
                   Lines.Strings = (
                     
                       'Notenstufen gem'#228#223' '#167' 48 Abs. 3 SchulG: sehr gut (1); gut (2); bef' +
-                      'riedigend (3);ausreichend (4); mangelhaft (5); ungen'#252'gend (6).')
+                      'riedigend (3); ausreichend (4); mangelhaft (5); ungen'#252'gend (6).')
                   RemoveEmptyLines = False
                   Transparent = True
                   mmHeight = 4733
