@@ -4392,6 +4392,7 @@ object Report: TppReport
         'Nr</dbtext>, SForm:<dbtext datapipeline='#39'EigeneSchule'#39'>Schulform' +
         'Krz</dbtext>\par'#13#10'}'#13#10#0
       RemoveEmptyLines = False
+      Stretch = True
       Transparent = True
       mmHeight = 15645
       mmLeft = 12700
