@@ -158,13 +158,13 @@ object Report: TppReport
         'eugnis ohne Abiturvermerk ausgeh\'#39'e4ndigt.\par'#13#10'\par'#13#10'\b Rechtsb' +
         'ehelfsbelehrung:\b0  Gegen die Entscheidung des Zentralen Abitur' +
         'ausschusses \'#39'fcber das Nichtbestehen kann innerhalb eines Monat' +
-        's nach Bekanntgabe dieses Bescheides Wider\'#39'02spruch erhoben wer' +
-        'den. \par'#13#10'Der Widerspruch ist bei der Schule <dbtext datapipeli' +
-        'ne='#39'EigeneSchule'#39'>Bezeichnung1</dbtext>, <dbtext datapipeline='#39'E' +
-        'igeneSchule'#39'>Strasse</dbtext> in <dbtext datapipeline='#39'EigeneSch' +
-        'ule'#39'>PlzOrt</dbtext> schriftlich oder zur Niederschrift zu erheb' +
-        'en.\par'#13#10'\par'#13#10'Mit freundlichen Gr\'#39'fc\'#39'dfen\par'#13#10'\par'#13#10'\par'#13#10'\f' +
-        's20 $Unterschrift$\f0\fs22\par'#13#10'}'#13#10#0
+        's nach Bekanntgabe dieses Bescheides Widerspruch erhoben werden.' +
+        ' \par'#13#10'Der Widerspruch ist bei der Schule <dbtext datapipeline='#39 +
+        'EigeneSchule'#39'>Bezeichnung1</dbtext>, <dbtext datapipeline='#39'Eigen' +
+        'eSchule'#39'>Strasse</dbtext> in <dbtext datapipeline='#39'EigeneSchule'#39 +
+        '>PlzOrt</dbtext> schriftlich oder zur Niederschrift zu erheben.\' +
+        'par'#13#10'\par'#13#10'Mit freundlichen Gr\'#39'fc\'#39'dfen\par'#13#10'\par'#13#10'\par'#13#10'\fs20 ' +
+        '$Unterschrift$\f0\fs22\par'#13#10'}'#13#10#0
       RemoveEmptyLines = False
       Stretch = True
       Transparent = True
