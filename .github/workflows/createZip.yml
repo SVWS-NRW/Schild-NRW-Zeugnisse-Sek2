@@ -1,21 +1,62 @@
-name: Continuous Release
+# Name des Workflows, wird in der GitHub UI angezeigt
+name: Create Release by pushing new Tag
+
 on:
+  # Workflow läuft beim Push eines Tags wie v1.2.3
   push:
-    branches:
-      - master
+    tags:
+      - 'v*'   # z.B. v1.2.3
+
+# Notwendige Berechtigungen für den Job für Release/Assets
 permissions:
   contents: write
+
 jobs:
   create-zip:
     runs-on: ubuntu-latest
-    if: "contains(github.event.head_commit.message, 'release')"
+
     steps:
-      - uses: actions/checkout@v4
-      - run: mkdir .zip
-      - run: for i in */; do zip -r ."/.zip/${i%/}_Zeugnisse.$(date +'%d-%m-%Y').${{ github.run_number }}.zip" "$i" *.pdf; done
-      - uses: ncipollo/release-action@v1
+      # 1) Code auschecken
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          artifacts: "./.zip/*"
-          allowUpdates: true
-          tag: v1.0.${{ github.run_number }}
+          fetch-depth: 0
+
+      # 2) Version aus dem Tag extrahieren und validieren
+      - name: Extract version from tag
+        id: ver
+        shell: bash
+        run: |
+          RAW="${GITHUB_REF_NAME}"          # z.B. "v1.2.3"
+          if [[ ! "$RAW" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Tag muss das Format vMAJOR.MINOR.PATCH haben (z.B. v1.2.3). Bekommen: $RAW"
+            exit 1
+          fi
+          VER="${RAW#v}"                    # führendes 'v' entfernen -> "1.2.3"
+          echo "version=$VER" >> "$GITHUB_OUTPUT"
+          echo "VERSION=$VER" >> "$GITHUB_ENV"
+          echo "Release version: $VER"
+
+      # 3) .zip-Ordner vorbereiten
+      - name: Create .zip folder
+        run: mkdir -p .zip
+
+      # 5) ZIP-Archiv bauen, ohne Ordner und Dateien aus .zipignore
+      - name: Build ZIP (uses .zipignore)
+        shell: bash
+        run: |
+          for i in */ 
+          do
+            ZIP_NAME="./.zip/${i%/}_Zeugnisse-v${VERSION}-$(date +'%d.%m.%Y').zip"
+            zip -r "ZIP_NAME" "$i" *.pdf
+          done
+
+      # 6) GitHub Release erstellen oder aktualisieren
+      - name: Create/Update GitHub Release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: ".zip/*"                         # alle ZIPs im .zip-Ordner anhängen
+          allowUpdates: true                          # Release bei gleichem Tag aktualisieren
+          tag: "${{ github.ref_name }}"               # = vX.Y.Z
+          name: "Release v${{ steps.ver.outputs.version }}"
           token: ${{ secrets.GITHUB_TOKEN }}
